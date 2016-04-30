@@ -1,13 +1,14 @@
 /**
  * Created by simin on 2016/4/30.
  */
+/*
 var fortunes=[
     "fortunes1",
     "fortunes2",
     "fortunes3",
     "fortunes4"
 ];
-
+*/
 var express=require('express');
 var app=express();
 var handlebars=require('express3-handlebars').create({defaultLayout:'main'});
@@ -23,13 +24,14 @@ app.get('/',function(req,res){
     res.render('home');
 });
 
+var fortune=require('./lib/fortune.js');
 app.get('/about',function(req,res){
    // res.type('text/plain');
    // res.send('About Meadowlark Travel');
 
-    var randomFortune=fortunes[Math.floor(Math.random()*fortunes.length)];
-    res.render('about',{fortune:randomFortune,haha:"hahahahaha"});
-
+   // var randomFortune=fortunes[Math.floor(Math.random()*fortunes.length)];
+   // res.render('about',{fortune:randomFortune,haha:"hahahahaha"});
+    res.render('about',{fortune:fortune.getFortune(),haha:"hahahahaha"});
     //res.render('about');
 });
 
