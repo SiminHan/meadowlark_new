@@ -16,6 +16,11 @@ app.engine('handlebars',handlebars.engine);
 app.set('view engine','handlebars');
 app.set('port',process.env.PORT||3000);
 
+app.use(function(req,res,next){
+    res.locals.showTests=app.get('env')!=='production'&&req.query.test==='1';
+    next();
+});
+
 app.use(express.static(__dirname+'/public'));
 
 app.get('/',function(req,res){
@@ -31,7 +36,12 @@ app.get('/about',function(req,res){
 
    // var randomFortune=fortunes[Math.floor(Math.random()*fortunes.length)];
    // res.render('about',{fortune:randomFortune,haha:"hahahahaha"});
-    res.render('about',{fortune:fortune.getFortune(),haha:"hahahahaha"});
+    res.render('about',{
+        pageTestScript:'qa/tests-about.js',
+        fortune:fortune.getFortune(),
+        haha:"hahahahaha"
+
+    });
     //res.render('about');
 });
 
