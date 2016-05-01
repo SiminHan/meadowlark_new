@@ -29,6 +29,14 @@ app.get('/',function(req,res){
     res.render('home');
 });
 
+app.get('/tours/hood_river',function(req,res){
+    res.render('tours/hood_river');
+});
+
+app.get('/tours/request_group_rate',function(req,res){
+    res.render('tours/request_group_rate');
+});
+
 var fortune=require('./lib/fortune.js');
 app.get('/about',function(req,res){
    // res.type('text/plain');
