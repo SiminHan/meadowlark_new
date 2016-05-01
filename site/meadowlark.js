@@ -11,6 +11,7 @@ var fortunes=[
 */
 var express=require('express');
 var app=express();
+if(app.thing===null) console.log('bleat!');
 var handlebars=require('express3-handlebars').create({defaultLayout:'main'});
 app.engine('handlebars',handlebars.engine);
 app.set('view engine','handlebars');

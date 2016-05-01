@@ -5,15 +5,28 @@
   "main": "meadowlark.js",
   "dependencies": {
     "express": "^4.13.4",
-    "express3-handlebars": "^0.5.2",
-    "mocha": "^2.4.5"
+    "express3-handlebars": "^0.5.2"
   },
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "mocha": "^2.4.5",
+    "zombie": "^4.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Simin Han",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiminHan/meadowlark_new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SiminHan/meadowlark_new/issues"
+  },
+  "homepage": "https://github.com/SiminHan/meadowlark_new#readme"
 }
