@@ -41,7 +41,17 @@ function getWeatherData(){
 var express=require('express');
 var app=express();
 if(app.thing===null) console.log('bleat!');
-var handlebars=require('express3-handlebars').create({defaultLayout:'main'});
+
+var handlebars=require('express3-handlebars').create({
+    defaultLayout:'main',
+    helpers:{
+        section:function(name,options){
+            if(!this._sections) this._sections={};
+            this._sections[name]=options.fn(this);
+            return null;
+        }
+    }
+});
 app.engine('handlebars',handlebars.engine);
 app.set('view engine','handlebars');
 app.set('port',process.env.PORT||3000);
@@ -71,6 +81,10 @@ app.get('/tours/hood_river',function(req,res){
 
 app.get('/tours/request_group_rate',function(req,res){
     res.render('tours/request_group_rate');
+});
+
+app.get('/jquery_test',function(req,res){
+    res.render('jquery_test');
 });
 
 var fortune=require('./lib/fortune.js');
