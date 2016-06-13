@@ -39,6 +39,8 @@ function getWeatherData(){
 }
 
 var express=require('express');
+var formidable=require('formidable');
+var bodyParser=require('body-parser');
 var app=express();
 if(app.thing===null) console.log('bleat!');
 
@@ -52,9 +54,15 @@ var handlebars=require('express3-handlebars').create({
         }
     }
 });
+
 app.engine('handlebars',handlebars.engine);
 app.set('view engine','handlebars');
 app.set('port',process.env.PORT||3000);
+
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
+app.use(bodyParser.json());
 
 app.use(function(req,res,next){
     res.locals.showTests=app.get('env')!=='production'&&req.query.test==='1';
@@ -87,6 +95,65 @@ app.get('/jquery_test',function(req,res){
     res.render('jquery_test');
 });
 
+app.get('/nurseryRhyme',function(req,res){
+    res.render('nursery_rhyme');
+});
+
+app.get('/data/nursery-rhyme-data',function(req,res){
+    res.json({
+        animal:'squirrel',
+        bodyPart:'tail',
+        adjective:'bushy',
+        noun:'heck',
+    });
+});
+
+app.get('/newsletter',function(req,res){
+    res.render('newsletter',{csrf:'CSRF token goes here'});
+});
+
+app.get('/newsletterAjax',function(req,res){
+    res.render('newsletterAjax',{csrf:'CSRF token goes here'});
+});
+
+app.get('/error',function(req,res){
+    res.render('error');
+});
+
+app.post('/process',function(req,res){
+   /*
+    console.log('Form (form querrystring):'+req.query.form);
+    console.log('CSRF token (form hidden form field):'+req.body._csrf);
+    console.log('Name (from visible form field):'+req.body.name);
+    console.log('Email (from visible form field):'+req.body.email);
+    res.redirect(303,'/thank-you');
+    */
+
+    if(req.xhr||req.accepts('json,html')==='json'){
+        res.send({success:true});
+    }else{
+        res.redirect(303,'/thank-you');
+    }
+});
+
+app.get('/contest/vacation-photo',function(req,res){
+    var now=new Date();
+    res.render('contest/vacation-photo',{
+        year:now.getFullYear(),
+        month:now.getMonth()
+    });
+});
+
+app.post('/contest/vacation-photo/:year/:month',function(req,res){
+    var form=new formidable.IncomingForm();
+    form.parse(req,function(err,fields,files){
+        if(err) return res.redirect(303,'/error');
+        console.log('received fields:'+fields);
+        console.log('received files:'+files);
+        res.redirect(303,'/thank-you');
+    });
+});
+
 var fortune=require('./lib/fortune.js');
 app.get('/about',function(req,res){
    // res.type('text/plain');
@@ -101,6 +168,10 @@ app.get('/about',function(req,res){
 
     });
     //res.render('about');
+});
+
+app.get('/thank-you',function(req,res){
+    res.render('thanks');
 });
 
 //404

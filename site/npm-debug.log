@@ -2,85 +2,2798 @@
 1 verbose cli [ 'D:\\nodejs\\node.exe',
 1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
-1 verbose cli   'webdreverio',
-1 verbose cli   '-g' ]
+1 verbose cli   '--save',
+1 verbose cli   'body-parser' ]
 2 info using npm@2.11.3
 3 info using node@v0.12.7
-4 verbose install initial load of C:\Users\simin\AppData\Roaming\npm\package.json
-5 verbose readDependencies loading dependencies from C:\Users\simin\AppData\Roaming\npm\package.json
-6 silly cache add args [ 'webdreverio', null ]
-7 verbose cache add spec webdreverio
-8 silly cache add parsed spec { raw: 'webdreverio',
-8 silly cache add   scope: null,
-8 silly cache add   name: 'webdreverio',
-8 silly cache add   rawSpec: '',
-8 silly cache add   spec: '*',
-8 silly cache add   type: 'range' }
-9 silly addNamed webdreverio@*
-10 verbose addNamed "*" is a valid semver range for webdreverio
-11 silly addNameRange { name: 'webdreverio', range: '*', hasData: false }
-12 silly mapToRegistry name webdreverio
-13 silly mapToRegistry using default registry
-14 silly mapToRegistry registry https://registry.npmjs.org/
-15 silly mapToRegistry uri https://registry.npmjs.org/webdreverio
-16 verbose addNameRange registry:https://registry.npmjs.org/webdreverio not in flight; fetching
-17 verbose request uri https://registry.npmjs.org/webdreverio
-18 verbose request no auth needed
-19 info attempt registry request try #1 at 12:39:41
-20 verbose request id 8c1b7c815dfc2f5a
-21 http request GET https://registry.npmjs.org/webdreverio
-22 http 404 https://registry.npmjs.org/webdreverio
-23 verbose headers { 'content-type': 'application/json',
-23 verbose headers   'cache-control': 'max-age=0',
-23 verbose headers   'content-length': '2',
-23 verbose headers   'accept-ranges': 'bytes',
-23 verbose headers   date: 'Sun, 01 May 2016 04:39:44 GMT',
-23 verbose headers   via: '1.1 varnish',
-23 verbose headers   age: '0',
-23 verbose headers   connection: 'keep-alive',
-23 verbose headers   'x-served-by': 'cache-fra1227-FRA',
-23 verbose headers   'x-cache': 'MISS',
-23 verbose headers   'x-cache-hits': '0',
-23 verbose headers   'x-timer': 'S1462077583.676940,VS0,VE746',
-23 verbose headers   vary: 'Accept-Encoding' }
-24 silly get cb [ 404,
-24 silly get   { 'content-type': 'application/json',
-24 silly get     'cache-control': 'max-age=0',
-24 silly get     'content-length': '2',
-24 silly get     'accept-ranges': 'bytes',
-24 silly get     date: 'Sun, 01 May 2016 04:39:44 GMT',
-24 silly get     via: '1.1 varnish',
-24 silly get     age: '0',
-24 silly get     connection: 'keep-alive',
-24 silly get     'x-served-by': 'cache-fra1227-FRA',
-24 silly get     'x-cache': 'MISS',
-24 silly get     'x-cache-hits': '0',
-24 silly get     'x-timer': 'S1462077583.676940,VS0,VE746',
-24 silly get     vary: 'Accept-Encoding' } ]
-25 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/webdreverio
-25 verbose stack     at CachingRegistryClient.<anonymous> (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:239:14)
-25 verbose stack     at Request._callback (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
-25 verbose stack     at Request.self.callback (D:\nodejs\node_modules\npm\node_modules\request\request.js:354:22)
-25 verbose stack     at Request.emit (events.js:110:17)
-25 verbose stack     at Request.<anonymous> (D:\nodejs\node_modules\npm\node_modules\request\request.js:1207:14)
-25 verbose stack     at Request.emit (events.js:129:20)
-25 verbose stack     at IncomingMessage.<anonymous> (D:\nodejs\node_modules\npm\node_modules\request\request.js:1153:12)
-25 verbose stack     at IncomingMessage.emit (events.js:129:20)
-25 verbose stack     at _stream_readable.js:908:16
-25 verbose stack     at process._tickCallback (node.js:355:11)
-26 verbose statusCode 404
-27 verbose pkgid webdreverio
-28 verbose cwd D:\传智工作室\express\project\meadowlark\site
-29 error Windows_NT 6.3.9600
-30 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "webdreverio" "-g"
-31 error node v0.12.7
-32 error npm  v2.11.3
-33 error code E404
-34 error 404 Registry returned 404 for GET on https://registry.npmjs.org/webdreverio
-34 error 404
-34 error 404 'webdreverio' is not in the npm registry.
-34 error 404 You should bug the author to publish it (or use the name yourself!)
-34 error 404
-34 error 404 Note that you can also install from a
-34 error 404 tarball, folder, http url, or git url.
-35 verbose exit [ 1, true ]
+4 verbose install initial load of D:\传智工作室\express\project\meadowlark\package.json
+5 warn package.json meadowlark@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\chai\package.json
+7 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\express\package.json
+8 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\express3-handlebars\package.json
+9 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\grunt\package.json
+10 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\grunt-cafe-mocha\package.json
+11 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\grunt-contrib-jshint\package.json
+12 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\grunt-contrib-nodeunit\package.json
+13 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\grunt-contrib-uglify\package.json
+14 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\grunt-exec\package.json
+15 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\jquery\package.json
+16 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\mocha\package.json
+17 verbose installManyTop reading scoped package data from D:\传智工作室\express\project\meadowlark\node_modules\zombie\package.json
+18 info package.json express3-handlebars@0.5.2 No license field.
+19 info package.json grunt-cafe-mocha@0.1.13 No license field.
+20 info package.json grunt-contrib-nodeunit@0.4.1 No license field.
+21 info package.json grunt-contrib-uglify@0.5.1 No license field.
+22 info package.json grunt-exec@0.4.6 No license field.
+23 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\package.json
+24 silly cache add args [ 'body-parser', null ]
+25 verbose cache add spec body-parser
+26 silly cache add parsed spec { raw: 'body-parser',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'body-parser',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: '*',
+26 silly cache add   type: 'range' }
+27 silly addNamed body-parser@*
+28 verbose addNamed "*" is a valid semver range for body-parser
+29 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+30 silly mapToRegistry name body-parser
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+34 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+35 verbose request uri https://registry.npmjs.org/body-parser
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 11:18:03
+38 verbose request id 3ca78d57b20ad459
+39 http request GET https://registry.npmjs.org/body-parser
+40 http 200 https://registry.npmjs.org/body-parser
+41 silly get cb [ 200,
+41 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 silly get     etag: '"3MAFWPHZJIUH7FJ545IA4ELTL"',
+41 silly get     'content-type': 'application/json',
+41 silly get     'content-encoding': 'gzip',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     'content-length': '15607',
+41 silly get     'accept-ranges': 'bytes',
+41 silly get     date: 'Mon, 13 Jun 2016 03:18:04 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     age: '201',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-sin6926-SIN',
+41 silly get     'x-cache': 'HIT',
+41 silly get     'x-cache-hits': '9',
+41 silly get     'x-timer': 'S1465787884.577355,VS0,VE0',
+41 silly get     vary: 'Accept-Encoding' } ]
+42 verbose get saving body-parser to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+43 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+44 silly addNameRange versions [ 'body-parser',
+44 silly addNameRange   [ '1.0.0',
+44 silly addNameRange     '1.0.1',
+44 silly addNameRange     '1.0.2',
+44 silly addNameRange     '1.1.0',
+44 silly addNameRange     '1.1.1',
+44 silly addNameRange     '1.1.2',
+44 silly addNameRange     '1.2.0',
+44 silly addNameRange     '1.2.1',
+44 silly addNameRange     '1.2.2',
+44 silly addNameRange     '1.3.0',
+44 silly addNameRange     '1.3.1',
+44 silly addNameRange     '1.4.0',
+44 silly addNameRange     '1.4.1',
+44 silly addNameRange     '1.4.2',
+44 silly addNameRange     '1.4.3',
+44 silly addNameRange     '1.5.0',
+44 silly addNameRange     '1.5.1',
+44 silly addNameRange     '1.5.2',
+44 silly addNameRange     '1.6.0',
+44 silly addNameRange     '1.6.1',
+44 silly addNameRange     '1.6.2',
+44 silly addNameRange     '1.6.3',
+44 silly addNameRange     '1.6.4',
+44 silly addNameRange     '1.6.5',
+44 silly addNameRange     '1.6.6',
+44 silly addNameRange     '1.6.7',
+44 silly addNameRange     '1.7.0',
+44 silly addNameRange     '1.8.0',
+44 silly addNameRange     '1.8.1',
+44 silly addNameRange     '1.8.2',
+44 silly addNameRange     '1.8.3',
+44 silly addNameRange     '1.8.4',
+44 silly addNameRange     '1.9.0',
+44 silly addNameRange     '1.9.1',
+44 silly addNameRange     '1.9.2',
+44 silly addNameRange     '1.9.3',
+44 silly addNameRange     '1.10.0',
+44 silly addNameRange     '1.10.1',
+44 silly addNameRange     '1.10.2',
+44 silly addNameRange     '1.11.0',
+44 silly addNameRange     '1.12.0',
+44 silly addNameRange     '1.12.1',
+44 silly addNameRange     '1.12.2',
+44 silly addNameRange     '1.12.3',
+44 silly addNameRange     '1.12.4',
+44 silly addNameRange     '1.13.0',
+44 silly addNameRange     '1.13.1',
+44 silly addNameRange     '1.13.2',
+44 silly addNameRange     '1.13.3',
+44 silly addNameRange     '1.14.0',
+44 silly addNameRange     '1.14.1',
+44 silly addNameRange     '1.14.2',
+44 silly addNameRange     '1.15.0',
+44 silly addNameRange     '1.15.1' ] ]
+45 silly addNamed body-parser@1.15.1
+46 verbose addNamed "1.15.1" is a plain semver version for body-parser
+47 silly mapToRegistry name body-parser
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+51 verbose addRemoteTarball https://registry.npmjs.org/body-parser/-/body-parser-1.15.1.tgz not in flight; adding
+52 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.15.1.tgz',
+52 verbose addRemoteTarball   '9bceef0669b8f8b943f0ad8ce5d95716bd740fd2' ]
+53 info retry fetch attempt 1 at 11:18:03
+54 info attempt registry request try #1 at 11:18:03
+55 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.1.tgz
+56 http fetch 200 https://registry.npmjs.org/body-parser/-/body-parser-1.15.1.tgz
+57 silly fetchAndShaCheck shasum 9bceef0669b8f8b943f0ad8ce5d95716bd740fd2
+58 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\body-parser\-\body-parser-1.15.1.tgz not in flight; adding
+59 verbose addTmpTarball already have metadata; skipping unpack for body-parser@1.15.1
+60 silly cache afterAdd body-parser@1.15.1
+61 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\body-parser\1.15.1\package\package.json not in flight; writing
+62 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\body-parser\1.15.1\package\package.json written
+63 silly install resolved [ { name: 'body-parser',
+63 silly install resolved     description: 'Node.js body parsing middleware',
+63 silly install resolved     version: '1.15.1',
+63 silly install resolved     contributors: [ [Object], [Object] ],
+63 silly install resolved     license: 'MIT',
+63 silly install resolved     repository:
+63 silly install resolved      { type: 'git',
+63 silly install resolved        url: 'git+https://github.com/expressjs/body-parser.git' },
+63 silly install resolved     dependencies:
+63 silly install resolved      { bytes: '2.3.0',
+63 silly install resolved        'content-type': '~1.0.1',
+63 silly install resolved        debug: '~2.2.0',
+63 silly install resolved        depd: '~1.1.0',
+63 silly install resolved        'http-errors': '~1.4.0',
+63 silly install resolved        'iconv-lite': '0.4.13',
+63 silly install resolved        'on-finished': '~2.3.0',
+63 silly install resolved        qs: '6.1.0',
+63 silly install resolved        'raw-body': '~2.1.6',
+63 silly install resolved        'type-is': '~1.6.12' },
+63 silly install resolved     devDependencies:
+63 silly install resolved      { istanbul: '0.4.3',
+63 silly install resolved        methods: '1.1.2',
+63 silly install resolved        mocha: '2.4.5',
+63 silly install resolved        supertest: '1.1.0' },
+63 silly install resolved     files: [ 'lib/', 'LICENSE', 'HISTORY.md', 'index.js' ],
+63 silly install resolved     engines: { node: '>= 0.8' },
+63 silly install resolved     scripts:
+63 silly install resolved      { test: 'mocha --require test/support/env --reporter spec --check-leaks --bail test/',
+63 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/',
+63 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/' },
+63 silly install resolved     gitHead: 'e701380ab9b862bbf2223e4df4835a15e4e1ff66',
+63 silly install resolved     bugs: { url: 'https://github.com/expressjs/body-parser/issues' },
+63 silly install resolved     homepage: 'https://github.com/expressjs/body-parser#readme',
+63 silly install resolved     _id: 'body-parser@1.15.1',
+63 silly install resolved     _shasum: '9bceef0669b8f8b943f0ad8ce5d95716bd740fd2',
+63 silly install resolved     _from: 'body-parser@*',
+63 silly install resolved     _npmVersion: '2.15.1',
+63 silly install resolved     _nodeVersion: '4.4.3',
+63 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: '9bceef0669b8f8b943f0ad8ce5d95716bd740fd2',
+63 silly install resolved        tarball: 'https://registry.npmjs.org/body-parser/-/body-parser-1.15.1.tgz' },
+63 silly install resolved     maintainers: [ [Object] ],
+63 silly install resolved     _npmOperationalInternal:
+63 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+63 silly install resolved        tmp: 'tmp/body-parser-1.15.1.tgz_1462512908287_0.2557021768298' },
+63 silly install resolved     directories: {},
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/body-parser/-/body-parser-1.15.1.tgz' } ]
+64 info install body-parser@1.15.1 into D:\传智工作室\express\project\meadowlark
+65 info installOne body-parser@1.15.1
+66 verbose installOne of body-parser to D:\传智工作室\express\project\meadowlark not in flight; installing
+67 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\body-parser-026e74b0d4383ab7.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+68 silly install write writing body-parser 1.15.1 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+69 verbose unbuild node_modules\body-parser
+70 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser is being purged from base D:\传智工作室\express\project\meadowlark
+71 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+72 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\body-parser\1.15.1\package.tgz
+73 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+74 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser is being purged
+75 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+76 silly gunzTarPerm modes [ '777', '666' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm extractEntry LICENSE
+80 silly gunzTarPerm extractEntry index.js
+81 silly gunzTarPerm extractEntry HISTORY.md
+82 silly gunzTarPerm extractEntry lib/read.js
+83 silly gunzTarPerm extractEntry lib/types/json.js
+84 silly gunzTarPerm extractEntry lib/types/raw.js
+85 silly gunzTarPerm extractEntry lib/types/text.js
+86 silly gunzTarPerm extractEntry lib/types/urlencoded.js
+87 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\package.json
+88 info preinstall body-parser@1.15.1
+89 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\package.json
+90 silly prepareForInstallMany adding bytes@2.3.0 from body-parser dependencies
+91 silly prepareForInstallMany adding content-type@~1.0.1 from body-parser dependencies
+92 silly prepareForInstallMany adding debug@~2.2.0 from body-parser dependencies
+93 silly prepareForInstallMany adding depd@~1.1.0 from body-parser dependencies
+94 silly prepareForInstallMany adding http-errors@~1.4.0 from body-parser dependencies
+95 silly prepareForInstallMany adding iconv-lite@0.4.13 from body-parser dependencies
+96 silly prepareForInstallMany adding on-finished@~2.3.0 from body-parser dependencies
+97 silly prepareForInstallMany adding qs@6.1.0 from body-parser dependencies
+98 silly prepareForInstallMany adding raw-body@~2.1.6 from body-parser dependencies
+99 silly prepareForInstallMany adding type-is@~1.6.12 from body-parser dependencies
+100 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\package.json
+101 silly cache add args [ 'bytes@2.3.0', null ]
+102 verbose cache add spec bytes@2.3.0
+103 silly cache add args [ 'content-type@~1.0.1', null ]
+104 verbose cache add spec content-type@~1.0.1
+105 silly cache add parsed spec { raw: 'bytes@2.3.0',
+105 silly cache add   scope: null,
+105 silly cache add   name: 'bytes',
+105 silly cache add   rawSpec: '2.3.0',
+105 silly cache add   spec: '2.3.0',
+105 silly cache add   type: 'version' }
+106 silly addNamed bytes@2.3.0
+107 verbose addNamed "2.3.0" is a plain semver version for bytes
+108 silly mapToRegistry name bytes
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/bytes
+112 verbose addNameVersion registry:https://registry.npmjs.org/bytes not in flight; fetching
+113 silly cache add parsed spec { raw: 'content-type@~1.0.1',
+113 silly cache add   scope: null,
+113 silly cache add   name: 'content-type',
+113 silly cache add   rawSpec: '~1.0.1',
+113 silly cache add   spec: '>=1.0.1 <1.1.0',
+113 silly cache add   type: 'range' }
+114 silly addNamed content-type@>=1.0.1 <1.1.0
+115 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for content-type
+116 silly addNameRange { name: 'content-type', range: '>=1.0.1 <1.1.0', hasData: false }
+117 silly mapToRegistry name content-type
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/content-type
+121 verbose addNameRange registry:https://registry.npmjs.org/content-type not in flight; fetching
+122 silly cache add args [ 'debug@~2.2.0', null ]
+123 verbose cache add spec debug@~2.2.0
+124 silly cache add parsed spec { raw: 'debug@~2.2.0',
+124 silly cache add   scope: null,
+124 silly cache add   name: 'debug',
+124 silly cache add   rawSpec: '~2.2.0',
+124 silly cache add   spec: '>=2.2.0 <2.3.0',
+124 silly cache add   type: 'range' }
+125 silly addNamed debug@>=2.2.0 <2.3.0
+126 verbose addNamed ">=2.2.0 <2.3.0" is a valid semver range for debug
+127 silly addNameRange { name: 'debug', range: '>=2.2.0 <2.3.0', hasData: false }
+128 silly mapToRegistry name debug
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/debug
+132 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+133 silly cache add args [ 'depd@~1.1.0', null ]
+134 verbose cache add spec depd@~1.1.0
+135 silly cache add parsed spec { raw: 'depd@~1.1.0',
+135 silly cache add   scope: null,
+135 silly cache add   name: 'depd',
+135 silly cache add   rawSpec: '~1.1.0',
+135 silly cache add   spec: '>=1.1.0 <1.2.0',
+135 silly cache add   type: 'range' }
+136 silly addNamed depd@>=1.1.0 <1.2.0
+137 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for depd
+138 silly addNameRange { name: 'depd', range: '>=1.1.0 <1.2.0', hasData: false }
+139 silly mapToRegistry name depd
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry uri https://registry.npmjs.org/depd
+143 verbose addNameRange registry:https://registry.npmjs.org/depd not in flight; fetching
+144 silly cache add args [ 'http-errors@~1.4.0', null ]
+145 verbose cache add spec http-errors@~1.4.0
+146 silly cache add parsed spec { raw: 'http-errors@~1.4.0',
+146 silly cache add   scope: null,
+146 silly cache add   name: 'http-errors',
+146 silly cache add   rawSpec: '~1.4.0',
+146 silly cache add   spec: '>=1.4.0 <1.5.0',
+146 silly cache add   type: 'range' }
+147 silly addNamed http-errors@>=1.4.0 <1.5.0
+148 verbose addNamed ">=1.4.0 <1.5.0" is a valid semver range for http-errors
+149 silly addNameRange { name: 'http-errors', range: '>=1.4.0 <1.5.0', hasData: false }
+150 silly mapToRegistry name http-errors
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+154 verbose addNameRange registry:https://registry.npmjs.org/http-errors not in flight; fetching
+155 silly cache add args [ 'iconv-lite@0.4.13', null ]
+156 verbose cache add spec iconv-lite@0.4.13
+157 silly cache add parsed spec { raw: 'iconv-lite@0.4.13',
+157 silly cache add   scope: null,
+157 silly cache add   name: 'iconv-lite',
+157 silly cache add   rawSpec: '0.4.13',
+157 silly cache add   spec: '0.4.13',
+157 silly cache add   type: 'version' }
+158 silly addNamed iconv-lite@0.4.13
+159 verbose addNamed "0.4.13" is a plain semver version for iconv-lite
+160 silly mapToRegistry name iconv-lite
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+164 verbose addNameVersion registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
+165 silly cache add args [ 'on-finished@~2.3.0', null ]
+166 verbose cache add spec on-finished@~2.3.0
+167 silly cache add parsed spec { raw: 'on-finished@~2.3.0',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'on-finished',
+167 silly cache add   rawSpec: '~2.3.0',
+167 silly cache add   spec: '>=2.3.0 <2.4.0',
+167 silly cache add   type: 'range' }
+168 silly addNamed on-finished@>=2.3.0 <2.4.0
+169 verbose addNamed ">=2.3.0 <2.4.0" is a valid semver range for on-finished
+170 silly addNameRange { name: 'on-finished', range: '>=2.3.0 <2.4.0', hasData: false }
+171 silly mapToRegistry name on-finished
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/on-finished
+175 verbose addNameRange registry:https://registry.npmjs.org/on-finished not in flight; fetching
+176 silly cache add args [ 'qs@6.1.0', null ]
+177 verbose cache add spec qs@6.1.0
+178 silly cache add parsed spec { raw: 'qs@6.1.0',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'qs',
+178 silly cache add   rawSpec: '6.1.0',
+178 silly cache add   spec: '6.1.0',
+178 silly cache add   type: 'version' }
+179 silly addNamed qs@6.1.0
+180 verbose addNamed "6.1.0" is a plain semver version for qs
+181 silly mapToRegistry name qs
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry uri https://registry.npmjs.org/qs
+185 verbose addNameVersion registry:https://registry.npmjs.org/qs not in flight; fetching
+186 silly cache add args [ 'raw-body@~2.1.6', null ]
+187 verbose cache add spec raw-body@~2.1.6
+188 silly cache add parsed spec { raw: 'raw-body@~2.1.6',
+188 silly cache add   scope: null,
+188 silly cache add   name: 'raw-body',
+188 silly cache add   rawSpec: '~2.1.6',
+188 silly cache add   spec: '>=2.1.6 <2.2.0',
+188 silly cache add   type: 'range' }
+189 silly addNamed raw-body@>=2.1.6 <2.2.0
+190 verbose addNamed ">=2.1.6 <2.2.0" is a valid semver range for raw-body
+191 silly addNameRange { name: 'raw-body', range: '>=2.1.6 <2.2.0', hasData: false }
+192 silly mapToRegistry name raw-body
+193 silly mapToRegistry using default registry
+194 silly mapToRegistry registry https://registry.npmjs.org/
+195 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+196 verbose addNameRange registry:https://registry.npmjs.org/raw-body not in flight; fetching
+197 silly cache add args [ 'type-is@~1.6.12', null ]
+198 verbose cache add spec type-is@~1.6.12
+199 silly cache add parsed spec { raw: 'type-is@~1.6.12',
+199 silly cache add   scope: null,
+199 silly cache add   name: 'type-is',
+199 silly cache add   rawSpec: '~1.6.12',
+199 silly cache add   spec: '>=1.6.12 <1.7.0',
+199 silly cache add   type: 'range' }
+200 silly addNamed type-is@>=1.6.12 <1.7.0
+201 verbose addNamed ">=1.6.12 <1.7.0" is a valid semver range for type-is
+202 silly addNameRange { name: 'type-is', range: '>=1.6.12 <1.7.0', hasData: false }
+203 silly mapToRegistry name type-is
+204 silly mapToRegistry using default registry
+205 silly mapToRegistry registry https://registry.npmjs.org/
+206 silly mapToRegistry uri https://registry.npmjs.org/type-is
+207 verbose addNameRange registry:https://registry.npmjs.org/type-is not in flight; fetching
+208 verbose request uri https://registry.npmjs.org/bytes
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 11:18:04
+211 http request GET https://registry.npmjs.org/bytes
+212 verbose request uri https://registry.npmjs.org/raw-body
+213 verbose request no auth needed
+214 info attempt registry request try #1 at 11:18:04
+215 http request GET https://registry.npmjs.org/raw-body
+216 verbose request uri https://registry.npmjs.org/http-errors
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 11:18:04
+219 verbose etag "3801FZ63OYKH0MH30I8D9C66V"
+220 http request GET https://registry.npmjs.org/http-errors
+221 verbose request uri https://registry.npmjs.org/content-type
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 11:18:04
+224 verbose etag "47J6RKVXRY0MARWDI3N08QX6R"
+225 http request GET https://registry.npmjs.org/content-type
+226 verbose request uri https://registry.npmjs.org/depd
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 11:18:04
+229 verbose etag "2IUBEEQSLE6DHP0TKJC7QMY81"
+230 http request GET https://registry.npmjs.org/depd
+231 verbose request uri https://registry.npmjs.org/iconv-lite
+232 verbose request no auth needed
+233 info attempt registry request try #1 at 11:18:04
+234 verbose etag "7AJK9OFDQY6LGFZTZNQRHZNCB"
+235 http request GET https://registry.npmjs.org/iconv-lite
+236 verbose request uri https://registry.npmjs.org/qs
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 11:18:04
+239 verbose etag "B0T1YHZIW2HJ8JNLNUVBOJNBN"
+240 http request GET https://registry.npmjs.org/qs
+241 verbose request uri https://registry.npmjs.org/on-finished
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 11:18:04
+244 verbose etag "5HI975RQQ4ZMWO79KX96Q7Y6V"
+245 http request GET https://registry.npmjs.org/on-finished
+246 verbose request uri https://registry.npmjs.org/debug
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 11:18:04
+249 verbose etag "2SO56YUJBSLZKXNAEN9QQ2WW3"
+250 http request GET https://registry.npmjs.org/debug
+251 verbose request uri https://registry.npmjs.org/type-is
+252 verbose request no auth needed
+253 info attempt registry request try #1 at 11:18:04
+254 verbose etag "CGHVEK69AZAG02ITWCDPLXX05"
+255 http request GET https://registry.npmjs.org/type-is
+256 http 200 https://registry.npmjs.org/bytes
+257 silly get cb [ 200,
+257 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+257 silly get     etag: '"BMBDGGYOLISAROG8ZJ2Y0XA1Y"',
+257 silly get     'content-type': 'application/json',
+257 silly get     'content-encoding': 'gzip',
+257 silly get     'cache-control': 'max-age=300',
+257 silly get     'content-length': '4131',
+257 silly get     'accept-ranges': 'bytes',
+257 silly get     date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+257 silly get     via: '1.1 varnish',
+257 silly get     age: '294',
+257 silly get     connection: 'keep-alive',
+257 silly get     'x-served-by': 'cache-sin6923-SIN',
+257 silly get     'x-cache': 'HIT',
+257 silly get     'x-cache-hits': '9',
+257 silly get     'x-timer': 'S1465787885.362111,VS0,VE0',
+257 silly get     vary: 'Accept-Encoding' } ]
+258 verbose get saving bytes to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\bytes\.cache.json
+259 http 200 https://registry.npmjs.org/raw-body
+260 silly get cb [ 200,
+260 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+260 silly get     etag: '"34V8C6CNY8V99PA3IRK07QMOU"',
+260 silly get     'content-type': 'application/json',
+260 silly get     'content-encoding': 'gzip',
+260 silly get     'cache-control': 'max-age=300',
+260 silly get     'content-length': '7251',
+260 silly get     'accept-ranges': 'bytes',
+260 silly get     date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     age: '37',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-sin6921-SIN',
+260 silly get     'x-cache': 'HIT',
+260 silly get     'x-cache-hits': '3',
+260 silly get     'x-timer': 'S1465787885.369652,VS0,VE0',
+260 silly get     vary: 'Accept-Encoding' } ]
+261 verbose get saving raw-body to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\raw-body\.cache.json
+262 http 304 https://registry.npmjs.org/depd
+263 silly get cb [ 304,
+263 silly get   { date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+263 silly get     via: '1.1 varnish',
+263 silly get     'cache-control': 'max-age=300',
+263 silly get     etag: '"2IUBEEQSLE6DHP0TKJC7QMY81"',
+263 silly get     age: '294',
+263 silly get     connection: 'keep-alive',
+263 silly get     'x-served-by': 'cache-sin6927-SIN',
+263 silly get     'x-cache': 'HIT',
+263 silly get     'x-cache-hits': '12',
+263 silly get     'x-timer': 'S1465787885.395774,VS0,VE0',
+263 silly get     vary: 'Accept-Encoding' } ]
+264 verbose etag https://registry.npmjs.org/depd from cache
+265 verbose get saving depd to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\depd\.cache.json
+266 silly mapToRegistry name bytes
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npmjs.org/
+269 silly mapToRegistry uri https://registry.npmjs.org/bytes
+270 verbose addRemoteTarball https://registry.npmjs.org/bytes/-/bytes-2.3.0.tgz not in flight; adding
+271 verbose addRemoteTarball [ 'https://registry.npmjs.org/bytes/-/bytes-2.3.0.tgz',
+271 verbose addRemoteTarball   'd5b680a165b6201739acb611542aabc2d8ceb070' ]
+272 http 200 https://registry.npmjs.org/content-type
+273 silly get cb [ 200,
+273 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+273 silly get     etag: '"54SI4KXPU2JCNK86HYJVU5FOW"',
+273 silly get     'content-type': 'application/json',
+273 silly get     'content-encoding': 'gzip',
+273 silly get     'cache-control': 'max-age=300',
+273 silly get     'content-length': '2516',
+273 silly get     'accept-ranges': 'bytes',
+273 silly get     date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+273 silly get     via: '1.1 varnish',
+273 silly get     age: '274',
+273 silly get     connection: 'keep-alive',
+273 silly get     'x-served-by': 'cache-sin6927-SIN',
+273 silly get     'x-cache': 'HIT',
+273 silly get     'x-cache-hits': '9',
+273 silly get     'x-timer': 'S1465787885.403407,VS0,VE0',
+273 silly get     vary: 'Accept-Encoding' } ]
+274 verbose get saving content-type to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\content-type\.cache.json
+275 http 200 https://registry.npmjs.org/http-errors
+276 silly get cb [ 200,
+276 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+276 silly get     etag: '"4Z3W8LC0PXE2O7VQR2Z1NDJMU"',
+276 silly get     'content-type': 'application/json',
+276 silly get     'content-encoding': 'gzip',
+276 silly get     'cache-control': 'max-age=300',
+276 silly get     'content-length': '5210',
+276 silly get     'accept-ranges': 'bytes',
+276 silly get     date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+276 silly get     via: '1.1 varnish',
+276 silly get     age: '40',
+276 silly get     connection: 'keep-alive',
+276 silly get     'x-served-by': 'cache-sin6922-SIN',
+276 silly get     'x-cache': 'HIT',
+276 silly get     'x-cache-hits': '1',
+276 silly get     'x-timer': 'S1465787885.406389,VS0,VE0',
+276 silly get     vary: 'Accept-Encoding' } ]
+277 verbose get saving http-errors to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\http-errors\.cache.json
+278 http 200 https://registry.npmjs.org/qs
+279 silly get cb [ 200,
+279 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+279 silly get     etag: '"4R2YBEX6A090SPOEDKT4AGIM0"',
+279 silly get     'content-type': 'application/json',
+279 silly get     'content-encoding': 'gzip',
+279 silly get     'cache-control': 'max-age=300',
+279 silly get     'content-length': '12934',
+279 silly get     'accept-ranges': 'bytes',
+279 silly get     date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+279 silly get     via: '1.1 varnish',
+279 silly get     age: '36',
+279 silly get     connection: 'keep-alive',
+279 silly get     'x-served-by': 'cache-sin6922-SIN',
+279 silly get     'x-cache': 'HIT',
+279 silly get     'x-cache-hits': '2',
+279 silly get     'x-timer': 'S1465787885.398836,VS0,VE0',
+279 silly get     vary: 'Accept-Encoding' } ]
+280 verbose get saving qs to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\qs\.cache.json
+281 silly addNameRange number 2 { name: 'raw-body', range: '>=2.1.6 <2.2.0', hasData: true }
+282 silly addNameRange versions [ 'raw-body',
+282 silly addNameRange   [ '0.0.1',
+282 silly addNameRange     '0.0.2',
+282 silly addNameRange     '0.0.3',
+282 silly addNameRange     '0.1.0',
+282 silly addNameRange     '0.1.1',
+282 silly addNameRange     '0.2.0',
+282 silly addNameRange     '1.0.0',
+282 silly addNameRange     '1.0.1',
+282 silly addNameRange     '1.1.0',
+282 silly addNameRange     '1.1.1',
+282 silly addNameRange     '1.1.2',
+282 silly addNameRange     '1.1.3',
+282 silly addNameRange     '1.1.4',
+282 silly addNameRange     '1.1.5',
+282 silly addNameRange     '1.1.6',
+282 silly addNameRange     '1.1.7',
+282 silly addNameRange     '1.2.0',
+282 silly addNameRange     '1.2.1',
+282 silly addNameRange     '1.2.2',
+282 silly addNameRange     '1.2.3',
+282 silly addNameRange     '1.3.0',
+282 silly addNameRange     '1.3.1',
+282 silly addNameRange     '1.3.2',
+282 silly addNameRange     '1.3.3',
+282 silly addNameRange     '1.3.4',
+282 silly addNameRange     '2.0.0',
+282 silly addNameRange     '2.0.1',
+282 silly addNameRange     '2.0.2',
+282 silly addNameRange     '2.1.0',
+282 silly addNameRange     '2.1.1',
+282 silly addNameRange     '2.1.2',
+282 silly addNameRange     '2.1.3',
+282 silly addNameRange     '2.1.4',
+282 silly addNameRange     '2.1.5',
+282 silly addNameRange     '2.1.6' ] ]
+283 silly addNamed raw-body@2.1.6
+284 verbose addNamed "2.1.6" is a plain semver version for raw-body
+285 info retry fetch attempt 1 at 11:18:04
+286 info attempt registry request try #1 at 11:18:04
+287 http fetch GET https://registry.npmjs.org/bytes/-/bytes-2.3.0.tgz
+288 silly mapToRegistry name raw-body
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npmjs.org/
+291 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+292 verbose addRemoteTarball https://registry.npmjs.org/raw-body/-/raw-body-2.1.6.tgz not in flight; adding
+293 verbose addRemoteTarball [ 'https://registry.npmjs.org/raw-body/-/raw-body-2.1.6.tgz',
+293 verbose addRemoteTarball   '9c050737fe07ced6d94a4fd09c61b6ad874d310f' ]
+294 http 200 https://registry.npmjs.org/iconv-lite
+295 silly get cb [ 200,
+295 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+295 silly get     etag: '"6OAKMK6MN0RIN5RQWRGBVGAFC"',
+295 silly get     'content-type': 'application/json',
+295 silly get     'content-encoding': 'gzip',
+295 silly get     'cache-control': 'max-age=300',
+295 silly get     'content-length': '8555',
+295 silly get     'accept-ranges': 'bytes',
+295 silly get     date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+295 silly get     via: '1.1 varnish',
+295 silly get     age: '118',
+295 silly get     connection: 'keep-alive',
+295 silly get     'x-served-by': 'cache-sin6920-SIN',
+295 silly get     'x-cache': 'HIT',
+295 silly get     'x-cache-hits': '2',
+295 silly get     'x-timer': 'S1465787885.404268,VS0,VE0',
+295 silly get     vary: 'Accept-Encoding' } ]
+296 verbose get saving iconv-lite to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\iconv-lite\.cache.json
+297 silly addNameRange number 2 { name: 'depd', range: '>=1.1.0 <1.2.0', hasData: true }
+298 silly addNameRange versions [ 'depd',
+298 silly addNameRange   [ '0.0.0',
+298 silly addNameRange     '0.0.1',
+298 silly addNameRange     '0.1.0',
+298 silly addNameRange     '0.2.0',
+298 silly addNameRange     '0.3.0',
+298 silly addNameRange     '0.4.0',
+298 silly addNameRange     '0.4.1',
+298 silly addNameRange     '0.4.2',
+298 silly addNameRange     '0.4.3',
+298 silly addNameRange     '0.4.4',
+298 silly addNameRange     '0.4.5',
+298 silly addNameRange     '1.0.0',
+298 silly addNameRange     '1.0.1',
+298 silly addNameRange     '1.1.0' ] ]
+299 silly addNamed depd@1.1.0
+300 verbose addNamed "1.1.0" is a plain semver version for depd
+301 http 304 https://registry.npmjs.org/on-finished
+302 silly get cb [ 304,
+302 silly get   { date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+302 silly get     via: '1.1 varnish',
+302 silly get     'cache-control': 'max-age=300',
+302 silly get     etag: '"5HI975RQQ4ZMWO79KX96Q7Y6V"',
+302 silly get     age: '286',
+302 silly get     connection: 'keep-alive',
+302 silly get     'x-served-by': 'cache-sin6922-SIN',
+302 silly get     'x-cache': 'HIT',
+302 silly get     'x-cache-hits': '23',
+302 silly get     'x-timer': 'S1465787885.427003,VS0,VE0',
+302 silly get     vary: 'Accept-Encoding' } ]
+303 verbose etag https://registry.npmjs.org/on-finished from cache
+304 verbose get saving on-finished to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\on-finished\.cache.json
+305 info retry fetch attempt 1 at 11:18:04
+306 info attempt registry request try #1 at 11:18:04
+307 http fetch GET https://registry.npmjs.org/raw-body/-/raw-body-2.1.6.tgz
+308 http 200 https://registry.npmjs.org/debug
+309 silly get cb [ 200,
+309 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+309 silly get     etag: '"9K1MWGO25MI6JV4O209795NK5"',
+309 silly get     'content-type': 'application/json',
+309 silly get     'content-encoding': 'gzip',
+309 silly get     'cache-control': 'max-age=300',
+309 silly get     'content-length': '9072',
+309 silly get     'accept-ranges': 'bytes',
+309 silly get     date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+309 silly get     via: '1.1 varnish',
+309 silly get     age: '30',
+309 silly get     connection: 'keep-alive',
+309 silly get     'x-served-by': 'cache-sin6921-SIN',
+309 silly get     'x-cache': 'HIT',
+309 silly get     'x-cache-hits': '6',
+309 silly get     'x-timer': 'S1465787885.426190,VS0,VE0',
+309 silly get     vary: 'Accept-Encoding' } ]
+310 verbose get saving debug to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+311 silly addNameRange number 2 { name: 'content-type', range: '>=1.0.1 <1.1.0', hasData: true }
+312 silly addNameRange versions [ 'content-type', [ '0.0.1', '1.0.0', '1.0.1', '1.0.2' ] ]
+313 silly addNamed content-type@1.0.2
+314 verbose addNamed "1.0.2" is a plain semver version for content-type
+315 silly mapToRegistry name content-type
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry uri https://registry.npmjs.org/content-type
+319 verbose addRemoteTarball https://registry.npmjs.org/content-type/-/content-type-1.0.2.tgz not in flight; adding
+320 verbose addRemoteTarball [ 'https://registry.npmjs.org/content-type/-/content-type-1.0.2.tgz',
+320 verbose addRemoteTarball   'b7d113aee7a8dd27bd21133c4dc2529df1721eed' ]
+321 http 200 https://registry.npmjs.org/type-is
+322 silly get cb [ 200,
+322 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+322 silly get     etag: '"6MF2TP522BDBG0RWZVQFH30D1"',
+322 silly get     'content-type': 'application/json',
+322 silly get     'content-encoding': 'gzip',
+322 silly get     'cache-control': 'max-age=300',
+322 silly get     'content-length': '7296',
+322 silly get     'accept-ranges': 'bytes',
+322 silly get     date: 'Mon, 13 Jun 2016 03:18:05 GMT',
+322 silly get     via: '1.1 varnish',
+322 silly get     age: '197',
+322 silly get     connection: 'keep-alive',
+322 silly get     'x-served-by': 'cache-sin6927-SIN',
+322 silly get     'x-cache': 'HIT',
+322 silly get     'x-cache-hits': '11',
+322 silly get     'x-timer': 'S1465787885.429454,VS0,VE0',
+322 silly get     vary: 'Accept-Encoding' } ]
+323 verbose get saving type-is to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\type-is\.cache.json
+324 silly mapToRegistry name qs
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npmjs.org/
+327 silly mapToRegistry uri https://registry.npmjs.org/qs
+328 verbose addRemoteTarball https://registry.npmjs.org/qs/-/qs-6.1.0.tgz not in flight; adding
+329 verbose addRemoteTarball [ 'https://registry.npmjs.org/qs/-/qs-6.1.0.tgz',
+329 verbose addRemoteTarball   'ec1d1626b24278d99f0fdf4549e524e24eceeb26' ]
+330 silly addNameRange number 2 { name: 'http-errors', range: '>=1.4.0 <1.5.0', hasData: true }
+331 silly addNameRange versions [ 'http-errors',
+331 silly addNameRange   [ '0.0.1',
+331 silly addNameRange     '1.0.0',
+331 silly addNameRange     '1.0.1',
+331 silly addNameRange     '1.1.0',
+331 silly addNameRange     '1.2.0',
+331 silly addNameRange     '1.2.1',
+331 silly addNameRange     '1.2.2',
+331 silly addNameRange     '1.2.3',
+331 silly addNameRange     '1.2.4',
+331 silly addNameRange     '1.2.5',
+331 silly addNameRange     '1.2.6',
+331 silly addNameRange     '1.2.7',
+331 silly addNameRange     '1.2.8',
+331 silly addNameRange     '1.3.0',
+331 silly addNameRange     '1.3.1',
+331 silly addNameRange     '1.4.0',
+331 silly addNameRange     '1.5.0' ] ]
+332 silly addNamed http-errors@1.4.0
+333 verbose addNamed "1.4.0" is a plain semver version for http-errors
+334 silly cache afterAdd depd@1.1.0
+335 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\depd\1.1.0\package\package.json not in flight; writing
+336 silly mapToRegistry name http-errors
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npmjs.org/
+339 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+340 verbose addRemoteTarball https://registry.npmjs.org/http-errors/-/http-errors-1.4.0.tgz not in flight; adding
+341 verbose addRemoteTarball [ 'https://registry.npmjs.org/http-errors/-/http-errors-1.4.0.tgz',
+341 verbose addRemoteTarball   '6c0242dea6b3df7afda153c71089b31c6e82aabf' ]
+342 silly mapToRegistry name iconv-lite
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+346 verbose addRemoteTarball https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz not in flight; adding
+347 verbose addRemoteTarball [ 'https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz',
+347 verbose addRemoteTarball   '1f88aba4ab0b1508e8312acc39345f36e992e2f2' ]
+348 info retry fetch attempt 1 at 11:18:04
+349 info attempt registry request try #1 at 11:18:04
+350 http fetch GET https://registry.npmjs.org/content-type/-/content-type-1.0.2.tgz
+351 silly addNameRange number 2 { name: 'on-finished', range: '>=2.3.0 <2.4.0', hasData: true }
+352 silly addNameRange versions [ 'on-finished',
+352 silly addNameRange   [ '2.0.0', '2.1.0', '2.1.1', '2.2.0', '2.2.1', '2.3.0' ] ]
+353 silly addNamed on-finished@2.3.0
+354 verbose addNamed "2.3.0" is a plain semver version for on-finished
+355 info retry fetch attempt 1 at 11:18:04
+356 info attempt registry request try #1 at 11:18:04
+357 http fetch GET https://registry.npmjs.org/qs/-/qs-6.1.0.tgz
+358 info retry fetch attempt 1 at 11:18:04
+359 info attempt registry request try #1 at 11:18:04
+360 http fetch GET https://registry.npmjs.org/http-errors/-/http-errors-1.4.0.tgz
+361 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\depd\1.1.0\package\package.json written
+362 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0 <2.3.0', hasData: true }
+363 silly addNameRange versions [ 'debug',
+363 silly addNameRange   [ '0.0.1',
+363 silly addNameRange     '0.1.0',
+363 silly addNameRange     '0.2.0',
+363 silly addNameRange     '0.3.0',
+363 silly addNameRange     '0.4.0',
+363 silly addNameRange     '0.4.1',
+363 silly addNameRange     '0.5.0',
+363 silly addNameRange     '0.6.0',
+363 silly addNameRange     '0.7.0',
+363 silly addNameRange     '0.7.1',
+363 silly addNameRange     '0.7.2',
+363 silly addNameRange     '0.7.3',
+363 silly addNameRange     '0.7.4',
+363 silly addNameRange     '0.8.0',
+363 silly addNameRange     '0.8.1',
+363 silly addNameRange     '1.0.0',
+363 silly addNameRange     '1.0.1',
+363 silly addNameRange     '1.0.2',
+363 silly addNameRange     '1.0.3',
+363 silly addNameRange     '1.0.4',
+363 silly addNameRange     '2.0.0',
+363 silly addNameRange     '2.1.0',
+363 silly addNameRange     '2.1.1',
+363 silly addNameRange     '2.1.2',
+363 silly addNameRange     '2.1.3',
+363 silly addNameRange     '2.2.0' ] ]
+364 silly addNamed debug@2.2.0
+365 verbose addNamed "2.2.0" is a plain semver version for debug
+366 info retry fetch attempt 1 at 11:18:04
+367 info attempt registry request try #1 at 11:18:04
+368 http fetch GET https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz
+369 silly addNameRange number 2 { name: 'type-is', range: '>=1.6.12 <1.7.0', hasData: true }
+370 silly addNameRange versions [ 'type-is',
+370 silly addNameRange   [ '1.0.0',
+370 silly addNameRange     '1.0.1',
+370 silly addNameRange     '1.1.0',
+370 silly addNameRange     '1.2.0',
+370 silly addNameRange     '1.2.1',
+370 silly addNameRange     '1.2.2',
+370 silly addNameRange     '1.3.0',
+370 silly addNameRange     '1.3.1',
+370 silly addNameRange     '1.3.2',
+370 silly addNameRange     '1.4.0',
+370 silly addNameRange     '1.5.0',
+370 silly addNameRange     '1.5.1',
+370 silly addNameRange     '1.5.2',
+370 silly addNameRange     '1.5.3',
+370 silly addNameRange     '1.5.4',
+370 silly addNameRange     '1.5.5',
+370 silly addNameRange     '1.5.6',
+370 silly addNameRange     '1.5.7',
+370 silly addNameRange     '1.6.0',
+370 silly addNameRange     '1.6.1',
+370 silly addNameRange     '1.6.2',
+370 silly addNameRange     '1.6.3',
+370 silly addNameRange     '1.6.4',
+370 silly addNameRange     '1.6.5',
+370 silly addNameRange     '1.6.6',
+370 silly addNameRange     '1.6.7',
+370 silly addNameRange     '1.6.8',
+370 silly addNameRange     '1.6.9',
+370 silly addNameRange     '1.6.10',
+370 silly addNameRange     '1.6.11',
+370 silly addNameRange     '1.6.12',
+370 silly addNameRange     '1.6.13' ] ]
+371 silly addNamed type-is@1.6.13
+372 verbose addNamed "1.6.13" is a plain semver version for type-is
+373 silly mapToRegistry name type-is
+374 silly mapToRegistry using default registry
+375 silly mapToRegistry registry https://registry.npmjs.org/
+376 silly mapToRegistry uri https://registry.npmjs.org/type-is
+377 verbose addRemoteTarball https://registry.npmjs.org/type-is/-/type-is-1.6.13.tgz not in flight; adding
+378 verbose addRemoteTarball [ 'https://registry.npmjs.org/type-is/-/type-is-1.6.13.tgz',
+378 verbose addRemoteTarball   '6e83ba7bc30cd33a7bb0b7fb00737a2085bf9d08' ]
+379 info retry fetch attempt 1 at 11:18:04
+380 info attempt registry request try #1 at 11:18:04
+381 http fetch GET https://registry.npmjs.org/type-is/-/type-is-1.6.13.tgz
+382 silly cache afterAdd on-finished@2.3.0
+383 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\on-finished\2.3.0\package\package.json not in flight; writing
+384 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\on-finished\2.3.0\package\package.json written
+385 silly cache afterAdd debug@2.2.0
+386 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json not in flight; writing
+387 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json written
+388 http fetch 200 https://registry.npmjs.org/bytes/-/bytes-2.3.0.tgz
+389 silly fetchAndShaCheck shasum d5b680a165b6201739acb611542aabc2d8ceb070
+390 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\bytes\-\bytes-2.3.0.tgz not in flight; adding
+391 verbose addTmpTarball already have metadata; skipping unpack for bytes@2.3.0
+392 silly cache afterAdd bytes@2.3.0
+393 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\bytes\2.3.0\package\package.json not in flight; writing
+394 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\bytes\2.3.0\package\package.json written
+395 http fetch 200 https://registry.npmjs.org/raw-body/-/raw-body-2.1.6.tgz
+396 silly fetchAndShaCheck shasum 9c050737fe07ced6d94a4fd09c61b6ad874d310f
+397 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\raw-body\-\raw-body-2.1.6.tgz not in flight; adding
+398 verbose addTmpTarball already have metadata; skipping unpack for raw-body@2.1.6
+399 silly cache afterAdd raw-body@2.1.6
+400 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\raw-body\2.1.6\package\package.json not in flight; writing
+401 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\raw-body\2.1.6\package\package.json written
+402 http fetch 200 https://registry.npmjs.org/content-type/-/content-type-1.0.2.tgz
+403 silly fetchAndShaCheck shasum b7d113aee7a8dd27bd21133c4dc2529df1721eed
+404 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\content-type\-\content-type-1.0.2.tgz not in flight; adding
+405 verbose addTmpTarball already have metadata; skipping unpack for content-type@1.0.2
+406 http fetch 200 https://registry.npmjs.org/qs/-/qs-6.1.0.tgz
+407 silly cache afterAdd content-type@1.0.2
+408 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\content-type\1.0.2\package\package.json not in flight; writing
+409 http fetch 200 https://registry.npmjs.org/http-errors/-/http-errors-1.4.0.tgz
+410 http fetch 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz
+411 http fetch 200 https://registry.npmjs.org/type-is/-/type-is-1.6.13.tgz
+412 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\content-type\1.0.2\package\package.json written
+413 silly fetchAndShaCheck shasum 6c0242dea6b3df7afda153c71089b31c6e82aabf
+414 silly fetchAndShaCheck shasum 6e83ba7bc30cd33a7bb0b7fb00737a2085bf9d08
+415 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\http-errors\-\http-errors-1.4.0.tgz not in flight; adding
+416 verbose addTmpTarball already have metadata; skipping unpack for http-errors@1.4.0
+417 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\type-is\-\type-is-1.6.13.tgz not in flight; adding
+418 verbose addTmpTarball already have metadata; skipping unpack for type-is@1.6.13
+419 silly cache afterAdd type-is@1.6.13
+420 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\type-is\1.6.13\package\package.json not in flight; writing
+421 silly cache afterAdd http-errors@1.4.0
+422 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\http-errors\1.4.0\package\package.json not in flight; writing
+423 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\type-is\1.6.13\package\package.json written
+424 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\http-errors\1.4.0\package\package.json written
+425 silly fetchAndShaCheck shasum ec1d1626b24278d99f0fdf4549e524e24eceeb26
+426 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\qs\-\qs-6.1.0.tgz not in flight; adding
+427 verbose addTmpTarball already have metadata; skipping unpack for qs@6.1.0
+428 silly cache afterAdd qs@6.1.0
+429 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\qs\6.1.0\package\package.json not in flight; writing
+430 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\qs\6.1.0\package\package.json written
+431 silly fetchAndShaCheck shasum 1f88aba4ab0b1508e8312acc39345f36e992e2f2
+432 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\iconv-lite\-\iconv-lite-0.4.13.tgz not in flight; adding
+433 verbose addTmpTarball already have metadata; skipping unpack for iconv-lite@0.4.13
+434 silly cache afterAdd iconv-lite@0.4.13
+435 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\iconv-lite\0.4.13\package\package.json not in flight; writing
+436 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\iconv-lite\0.4.13\package\package.json written
+437 silly install resolved [ { name: 'depd',
+437 silly install resolved     description: 'Deprecate all the things',
+437 silly install resolved     version: '1.1.0',
+437 silly install resolved     author:
+437 silly install resolved      { name: 'Douglas Christopher Wilson',
+437 silly install resolved        email: 'doug@somethingdoug.com' },
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     keywords: [ 'deprecate', 'deprecated' ],
+437 silly install resolved     repository:
+437 silly install resolved      { type: 'git',
+437 silly install resolved        url: 'git+https://github.com/dougwilson/nodejs-depd.git' },
+437 silly install resolved     browser: 'lib/browser/index.js',
+437 silly install resolved     devDependencies:
+437 silly install resolved      { benchmark: '1.0.0',
+437 silly install resolved        'beautify-benchmark': '0.2.4',
+437 silly install resolved        istanbul: '0.3.5',
+437 silly install resolved        mocha: '~1.21.5' },
+437 silly install resolved     files: [ 'lib/', 'History.md', 'LICENSE', 'index.js', 'Readme.md' ],
+437 silly install resolved     engines: { node: '>= 0.6' },
+437 silly install resolved     scripts:
+437 silly install resolved      { bench: 'node benchmark/index.js',
+437 silly install resolved        test: 'mocha --reporter spec --bail test/',
+437 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --no-exit test/',
+437 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/' },
+437 silly install resolved     gitHead: '78c659de20283e3a6bee92bda455e6daff01686a',
+437 silly install resolved     bugs: { url: 'https://github.com/dougwilson/nodejs-depd/issues' },
+437 silly install resolved     homepage: 'https://github.com/dougwilson/nodejs-depd',
+437 silly install resolved     _id: 'depd@1.1.0',
+437 silly install resolved     _shasum: 'e1bd82c6aab6ced965b97b88b17ed3e528ca18c3',
+437 silly install resolved     _from: 'depd@>=1.1.0 <1.2.0',
+437 silly install resolved     _npmVersion: '1.4.28',
+437 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+437 silly install resolved     maintainers: [ [Object] ],
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: 'e1bd82c6aab6ced965b97b88b17ed3e528ca18c3',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/depd/-/depd-1.1.0.tgz' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/depd/-/depd-1.1.0.tgz',
+437 silly install resolved     readme: 'ERROR: No README data found!' },
+437 silly install resolved   { name: 'on-finished',
+437 silly install resolved     description: 'Execute a callback when a request closes, finishes, or errors',
+437 silly install resolved     version: '2.3.0',
+437 silly install resolved     contributors: [ [Object], [Object] ],
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     repository:
+437 silly install resolved      { type: 'git',
+437 silly install resolved        url: 'git+https://github.com/jshttp/on-finished.git' },
+437 silly install resolved     dependencies: { 'ee-first': '1.1.1' },
+437 silly install resolved     devDependencies: { istanbul: '0.3.9', mocha: '2.2.5' },
+437 silly install resolved     engines: { node: '>= 0.8' },
+437 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+437 silly install resolved     scripts:
+437 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+437 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+437 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+437 silly install resolved     gitHead: '34babcb58126a416fcf5205768204f2e12699dda',
+437 silly install resolved     bugs: { url: 'https://github.com/jshttp/on-finished/issues' },
+437 silly install resolved     homepage: 'https://github.com/jshttp/on-finished',
+437 silly install resolved     _id: 'on-finished@2.3.0',
+437 silly install resolved     _shasum: '20f1336481b083cd75337992a16971aa2d906947',
+437 silly install resolved     _from: 'on-finished@>=2.3.0 <2.4.0',
+437 silly install resolved     _npmVersion: '1.4.28',
+437 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+437 silly install resolved     maintainers: [ [Object], [Object] ],
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: '20f1336481b083cd75337992a16971aa2d906947',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz',
+437 silly install resolved     readme: 'ERROR: No README data found!' },
+437 silly install resolved   { name: 'debug',
+437 silly install resolved     version: '2.2.0',
+437 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+437 silly install resolved     description: 'small debugging utility',
+437 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+437 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+437 silly install resolved     contributors: [ [Object] ],
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     dependencies: { ms: '0.7.1' },
+437 silly install resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+437 silly install resolved     main: './node.js',
+437 silly install resolved     browser: './browser.js',
+437 silly install resolved     component: { scripts: [Object] },
+437 silly install resolved     gitHead: 'b38458422b5aa8aa6d286b10dfe427e8a67e2b35',
+437 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+437 silly install resolved     homepage: 'https://github.com/visionmedia/debug',
+437 silly install resolved     _id: 'debug@2.2.0',
+437 silly install resolved     scripts: {},
+437 silly install resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+437 silly install resolved     _from: 'debug@>=2.2.0 <2.3.0',
+437 silly install resolved     _npmVersion: '2.7.4',
+437 silly install resolved     _nodeVersion: '0.12.2',
+437 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+437 silly install resolved     maintainers: [ [Object], [Object] ],
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+437 silly install resolved     readme: 'ERROR: No README data found!' },
+437 silly install resolved   { name: 'bytes',
+437 silly install resolved     description: 'Utility to parse a string bytes to bytes and vice-versa',
+437 silly install resolved     version: '2.3.0',
+437 silly install resolved     author:
+437 silly install resolved      { name: 'TJ Holowaychuk',
+437 silly install resolved        email: 'tj@vision-media.ca',
+437 silly install resolved        url: 'http://tjholowaychuk.com' },
+437 silly install resolved     contributors: [ [Object], [Object] ],
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     keywords:
+437 silly install resolved      [ 'byte',
+437 silly install resolved        'bytes',
+437 silly install resolved        'utility',
+437 silly install resolved        'parse',
+437 silly install resolved        'parser',
+437 silly install resolved        'convert',
+437 silly install resolved        'converter' ],
+437 silly install resolved     repository:
+437 silly install resolved      { type: 'git',
+437 silly install resolved        url: 'git+https://github.com/visionmedia/bytes.js.git' },
+437 silly install resolved     component: { scripts: [Object] },
+437 silly install resolved     devDependencies: { mocha: '1.21.5' },
+437 silly install resolved     files: [ 'History.md', 'LICENSE', 'Readme.md', 'index.js' ],
+437 silly install resolved     scripts: { test: 'mocha --check-leaks --reporter spec' },
+437 silly install resolved     gitHead: 'c8be41b24b04e04992d5918356d5a4dd35fbf805',
+437 silly install resolved     bugs: { url: 'https://github.com/visionmedia/bytes.js/issues' },
+437 silly install resolved     homepage: 'https://github.com/visionmedia/bytes.js#readme',
+437 silly install resolved     _id: 'bytes@2.3.0',
+437 silly install resolved     _shasum: 'd5b680a165b6201739acb611542aabc2d8ceb070',
+437 silly install resolved     _from: 'bytes@2.3.0',
+437 silly install resolved     _npmVersion: '2.14.7',
+437 silly install resolved     _nodeVersion: '4.2.3',
+437 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: 'd5b680a165b6201739acb611542aabc2d8ceb070',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/bytes/-/bytes-2.3.0.tgz' },
+437 silly install resolved     maintainers: [ [Object], [Object] ],
+437 silly install resolved     _npmOperationalInternal:
+437 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+437 silly install resolved        tmp: 'tmp/bytes-2.3.0.tgz_1455595208428_0.5990735022351146' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/bytes/-/bytes-2.3.0.tgz' },
+437 silly install resolved   { name: 'raw-body',
+437 silly install resolved     description: 'Get and validate the raw body of a readable stream.',
+437 silly install resolved     version: '2.1.6',
+437 silly install resolved     author:
+437 silly install resolved      { name: 'Jonathan Ong',
+437 silly install resolved        email: 'me@jongleberry.com',
+437 silly install resolved        url: 'http://jongleberry.com' },
+437 silly install resolved     contributors: [ [Object], [Object] ],
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     repository: { type: 'git', url: 'https://github.com/stream-utils/raw-body' },
+437 silly install resolved     dependencies: { bytes: '2.3.0', 'iconv-lite': '0.4.13', unpipe: '1.0.0' },
+437 silly install resolved     devDependencies:
+437 silly install resolved      { bluebird: '3.3.4',
+437 silly install resolved        istanbul: '0.4.2',
+437 silly install resolved        mocha: '2.4.5',
+437 silly install resolved        'readable-stream': '2.0.5',
+437 silly install resolved        through2: '2.0.1' },
+437 silly install resolved     engines: { node: '>= 0.8' },
+437 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'index.js' ],
+437 silly install resolved     scripts:
+437 silly install resolved      { test: 'mocha --trace-deprecation --reporter spec --bail --check-leaks test/',
+437 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --trace-deprecation --reporter dot --check-leaks test/',
+437 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --trace-deprecation --reporter spec --check-leaks test/' },
+437 silly install resolved     gitHead: 'f4ec2a5f6e9573c1ed126111b831c246b6ca580e',
+437 silly install resolved     bugs: { url: 'https://github.com/stream-utils/raw-body/issues' },
+437 silly install resolved     homepage: 'https://github.com/stream-utils/raw-body',
+437 silly install resolved     _id: 'raw-body@2.1.6',
+437 silly install resolved     _shasum: '9c050737fe07ced6d94a4fd09c61b6ad874d310f',
+437 silly install resolved     _from: 'raw-body@>=2.1.6 <2.2.0',
+437 silly install resolved     _npmVersion: '1.4.28',
+437 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+437 silly install resolved     maintainers: [ [Object], [Object] ],
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: '9c050737fe07ced6d94a4fd09c61b6ad874d310f',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/raw-body/-/raw-body-2.1.6.tgz' },
+437 silly install resolved     _npmOperationalInternal:
+437 silly install resolved      { host: 'packages-13-west.internal.npmjs.com',
+437 silly install resolved        tmp: 'tmp/raw-body-2.1.6.tgz_1457406406626_0.1825208596419543' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/raw-body/-/raw-body-2.1.6.tgz' },
+437 silly install resolved   { name: 'content-type',
+437 silly install resolved     description: 'Create and parse HTTP Content-Type header',
+437 silly install resolved     version: '1.0.2',
+437 silly install resolved     author:
+437 silly install resolved      { name: 'Douglas Christopher Wilson',
+437 silly install resolved        email: 'doug@somethingdoug.com' },
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     keywords: [ 'content-type', 'http', 'req', 'res', 'rfc7231' ],
+437 silly install resolved     repository:
+437 silly install resolved      { type: 'git',
+437 silly install resolved        url: 'git+https://github.com/jshttp/content-type.git' },
+437 silly install resolved     devDependencies: { istanbul: '0.4.3', mocha: '~1.21.5' },
+437 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'README.md', 'index.js' ],
+437 silly install resolved     engines: { node: '>= 0.6' },
+437 silly install resolved     scripts:
+437 silly install resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+437 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+437 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/' },
+437 silly install resolved     gitHead: '8118763adfbbac80cf1254191889330aec8b8be7',
+437 silly install resolved     bugs: { url: 'https://github.com/jshttp/content-type/issues' },
+437 silly install resolved     homepage: 'https://github.com/jshttp/content-type#readme',
+437 silly install resolved     _id: 'content-type@1.0.2',
+437 silly install resolved     _shasum: 'b7d113aee7a8dd27bd21133c4dc2529df1721eed',
+437 silly install resolved     _from: 'content-type@>=1.0.1 <1.1.0',
+437 silly install resolved     _npmVersion: '2.15.1',
+437 silly install resolved     _nodeVersion: '4.4.3',
+437 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: 'b7d113aee7a8dd27bd21133c4dc2529df1721eed',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/content-type/-/content-type-1.0.2.tgz' },
+437 silly install resolved     maintainers: [ [Object] ],
+437 silly install resolved     _npmOperationalInternal:
+437 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+437 silly install resolved        tmp: 'tmp/content-type-1.0.2.tgz_1462852785748_0.5491233412176371' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/content-type/-/content-type-1.0.2.tgz' },
+437 silly install resolved   { name: 'type-is',
+437 silly install resolved     description: 'Infer the content-type of a request.',
+437 silly install resolved     version: '1.6.13',
+437 silly install resolved     contributors: [ [Object], [Object] ],
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     repository:
+437 silly install resolved      { type: 'git',
+437 silly install resolved        url: 'git+https://github.com/jshttp/type-is.git' },
+437 silly install resolved     dependencies: { 'media-typer': '0.3.0', 'mime-types': '~2.1.11' },
+437 silly install resolved     devDependencies:
+437 silly install resolved      { eslint: '2.10.2',
+437 silly install resolved        'eslint-config-standard': '5.3.1',
+437 silly install resolved        'eslint-plugin-promise': '1.1.0',
+437 silly install resolved        'eslint-plugin-standard': '1.3.2',
+437 silly install resolved        istanbul: '0.4.3',
+437 silly install resolved        mocha: '1.21.5' },
+437 silly install resolved     engines: { node: '>= 0.6' },
+437 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+437 silly install resolved     scripts:
+437 silly install resolved      { lint: 'eslint **/*.js',
+437 silly install resolved        test: 'mocha --reporter spec --check-leaks --bail test/',
+437 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+437 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+437 silly install resolved     keywords: [ 'content', 'type', 'checking' ],
+437 silly install resolved     gitHead: '88c47523fff910343b3ca7d4928dad40f21ea6cd',
+437 silly install resolved     bugs: { url: 'https://github.com/jshttp/type-is/issues' },
+437 silly install resolved     homepage: 'https://github.com/jshttp/type-is#readme',
+437 silly install resolved     _id: 'type-is@1.6.13',
+437 silly install resolved     _shasum: '6e83ba7bc30cd33a7bb0b7fb00737a2085bf9d08',
+437 silly install resolved     _from: 'type-is@>=1.6.12 <1.7.0',
+437 silly install resolved     _npmVersion: '2.15.1',
+437 silly install resolved     _nodeVersion: '4.4.3',
+437 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: '6e83ba7bc30cd33a7bb0b7fb00737a2085bf9d08',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/type-is/-/type-is-1.6.13.tgz' },
+437 silly install resolved     maintainers: [ [Object], [Object] ],
+437 silly install resolved     _npmOperationalInternal:
+437 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+437 silly install resolved        tmp: 'tmp/type-is-1.6.13.tgz_1463622049206_0.9134831207338721' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/type-is/-/type-is-1.6.13.tgz' },
+437 silly install resolved   { name: 'http-errors',
+437 silly install resolved     description: 'Create HTTP error objects',
+437 silly install resolved     version: '1.4.0',
+437 silly install resolved     author:
+437 silly install resolved      { name: 'Jonathan Ong',
+437 silly install resolved        email: 'me@jongleberry.com',
+437 silly install resolved        url: 'http://jongleberry.com' },
+437 silly install resolved     contributors: [ [Object], [Object] ],
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     repository:
+437 silly install resolved      { type: 'git',
+437 silly install resolved        url: 'git+https://github.com/jshttp/http-errors.git' },
+437 silly install resolved     dependencies: { inherits: '2.0.1', statuses: '>= 1.2.1 < 2' },
+437 silly install resolved     devDependencies: { istanbul: '0.4.2', mocha: '1.21.5' },
+437 silly install resolved     engines: { node: '>= 0.6' },
+437 silly install resolved     scripts:
+437 silly install resolved      { test: 'mocha --reporter spec --bail',
+437 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot',
+437 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot' },
+437 silly install resolved     keywords: [ 'http', 'error' ],
+437 silly install resolved     files: [ 'index.js', 'HISTORY.md', 'LICENSE', 'README.md' ],
+437 silly install resolved     gitHead: '3d49066ba40bd7f512bc4cf367bbe650c5f2191f',
+437 silly install resolved     bugs: { url: 'https://github.com/jshttp/http-errors/issues' },
+437 silly install resolved     homepage: 'https://github.com/jshttp/http-errors#readme',
+437 silly install resolved     _id: 'http-errors@1.4.0',
+437 silly install resolved     _shasum: '6c0242dea6b3df7afda153c71089b31c6e82aabf',
+437 silly install resolved     _from: 'http-errors@>=1.4.0 <1.5.0',
+437 silly install resolved     _npmVersion: '2.14.7',
+437 silly install resolved     _nodeVersion: '4.2.3',
+437 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: '6c0242dea6b3df7afda153c71089b31c6e82aabf',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/http-errors/-/http-errors-1.4.0.tgz' },
+437 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/http-errors/-/http-errors-1.4.0.tgz' },
+437 silly install resolved   { name: 'qs',
+437 silly install resolved     description: 'A querystring parser that supports nesting and arrays, with a depth limit',
+437 silly install resolved     homepage: 'https://github.com/ljharb/qs',
+437 silly install resolved     version: '6.1.0',
+437 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/ljharb/qs.git' },
+437 silly install resolved     main: 'lib/index.js',
+437 silly install resolved     contributors: [ [Object] ],
+437 silly install resolved     keywords: [ 'querystring', 'qs' ],
+437 silly install resolved     engines: { node: '>=0.6' },
+437 silly install resolved     dependencies: {},
+437 silly install resolved     devDependencies:
+437 silly install resolved      { browserify: '^12.0.1',
+437 silly install resolved        tape: '^4.3.0',
+437 silly install resolved        covert: '^1.1.0',
+437 silly install resolved        mkdirp: '^0.5.1',
+437 silly install resolved        eslint: '^1.10.3',
+437 silly install resolved        '@ljharb/eslint-config': '^1.6.1',
+437 silly install resolved        parallelshell: '^2.0.0',
+437 silly install resolved        evalmd: '^0.0.16' },
+437 silly install resolved     scripts:
+437 silly install resolved      { test: 'parallelshell \'npm run readme\' \'npm run lint\' \'npm run coverage\'',
+437 silly install resolved        'tests-only': 'node test',
+437 silly install resolved        readme: 'evalmd README.md',
+437 silly install resolved        lint: 'eslint lib/*.js text/*.js',
+437 silly install resolved        coverage: 'covert test',
+437 silly install resolved        dist: 'mkdirp dist && browserify --standalone Qs lib/index.js > dist/qs.js',
+437 silly install resolved        prepublish: 'npm run dist' },
+437 silly install resolved     license: 'BSD-3-Clause',
+437 silly install resolved     gitHead: '5bd79545edb33d6a43398fec7df9ecef2da005ea',
+437 silly install resolved     bugs: { url: 'https://github.com/ljharb/qs/issues' },
+437 silly install resolved     _id: 'qs@6.1.0',
+437 silly install resolved     _shasum: 'ec1d1626b24278d99f0fdf4549e524e24eceeb26',
+437 silly install resolved     _from: 'qs@6.1.0',
+437 silly install resolved     _npmVersion: '3.3.12',
+437 silly install resolved     _nodeVersion: '5.5.0',
+437 silly install resolved     _npmUser: { name: 'ljharb', email: 'ljharb@gmail.com' },
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: 'ec1d1626b24278d99f0fdf4549e524e24eceeb26',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/qs/-/qs-6.1.0.tgz' },
+437 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+437 silly install resolved     _npmOperationalInternal:
+437 silly install resolved      { host: 'packages-5-east.internal.npmjs.com',
+437 silly install resolved        tmp: 'tmp/qs-6.1.0.tgz_1454565583082_0.44599376199766994' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/qs/-/qs-6.1.0.tgz' },
+437 silly install resolved   { name: 'iconv-lite',
+437 silly install resolved     description: 'Convert character encodings in pure javascript.',
+437 silly install resolved     version: '0.4.13',
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     keywords: [ 'iconv', 'convert', 'charset', 'icu' ],
+437 silly install resolved     author: { name: 'Alexander Shtuchkin', email: 'ashtuchkin@gmail.com' },
+437 silly install resolved     contributors:
+437 silly install resolved      [ [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object],
+437 silly install resolved        [Object] ],
+437 silly install resolved     main: './lib/index.js',
+437 silly install resolved     homepage: 'https://github.com/ashtuchkin/iconv-lite',
+437 silly install resolved     bugs: { url: 'https://github.com/ashtuchkin/iconv-lite/issues' },
+437 silly install resolved     repository:
+437 silly install resolved      { type: 'git',
+437 silly install resolved        url: 'git://github.com/ashtuchkin/iconv-lite.git' },
+437 silly install resolved     engines: { node: '>=0.8.0' },
+437 silly install resolved     scripts:
+437 silly install resolved      { coverage: 'istanbul cover _mocha -- --grep .',
+437 silly install resolved        'coverage-open': 'open coverage/lcov-report/index.html',
+437 silly install resolved        test: 'mocha --reporter spec --grep .' },
+437 silly install resolved     browser: { './extend-node': false, './streams': false },
+437 silly install resolved     devDependencies:
+437 silly install resolved      { mocha: '*',
+437 silly install resolved        request: '2.47',
+437 silly install resolved        unorm: '*',
+437 silly install resolved        errto: '*',
+437 silly install resolved        async: '*',
+437 silly install resolved        istanbul: '*',
+437 silly install resolved        iconv: '2.1' },
+437 silly install resolved     gitHead: 'f5ec51b1e7dd1477a3570824960641eebdc5fbc6',
+437 silly install resolved     _id: 'iconv-lite@0.4.13',
+437 silly install resolved     _shasum: '1f88aba4ab0b1508e8312acc39345f36e992e2f2',
+437 silly install resolved     _from: 'iconv-lite@0.4.13',
+437 silly install resolved     _npmVersion: '2.14.4',
+437 silly install resolved     _nodeVersion: '4.1.1',
+437 silly install resolved     _npmUser: { name: 'ashtuchkin', email: 'ashtuchkin@gmail.com' },
+437 silly install resolved     maintainers: [ [Object] ],
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: '1f88aba4ab0b1508e8312acc39345f36e992e2f2',
+437 silly install resolved        tarball: 'https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz' } ]
+438 info install depd@1.1.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+439 info install on-finished@2.3.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+440 info install debug@2.2.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+441 info install bytes@2.3.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+442 info install raw-body@2.1.6 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+443 info install content-type@1.0.2 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+444 info install type-is@1.6.13 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+445 info install http-errors@1.4.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+446 info install qs@6.1.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+447 info install iconv-lite@0.4.13 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+448 info installOne depd@1.1.0
+449 verbose installOne of depd to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+450 info installOne on-finished@2.3.0
+451 verbose installOne of on-finished to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+452 info installOne debug@2.2.0
+453 verbose installOne of debug to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+454 info installOne bytes@2.3.0
+455 verbose installOne of bytes to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+456 info installOne raw-body@2.1.6
+457 verbose installOne of raw-body to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+458 info installOne content-type@1.0.2
+459 verbose installOne of content-type to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+460 info installOne type-is@1.6.13
+461 verbose installOne of type-is to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+462 info installOne http-errors@1.4.0
+463 verbose installOne of http-errors to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+464 info installOne qs@6.1.0
+465 verbose installOne of qs to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+466 info installOne iconv-lite@0.4.13
+467 verbose installOne of iconv-lite to D:\传智工作室\express\project\meadowlark\node_modules\body-parser not in flight; installing
+468 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\depd-c80aaa70c472e859.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd
+469 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\debug-bb21403c78aa6e6f.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+470 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\on-finished-482b92e3cefdc155.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+471 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\bytes-16304727c63910a2.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes
+472 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\content-type-8ac16fa3e72c201e.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type
+473 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\raw-body-e3aae9cfe4e31119.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+474 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\type-is-9aec4b844dfab469.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+475 silly install write writing depd 1.1.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd
+476 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\http-errors-a52068943a78b040.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+477 silly install write writing debug 2.2.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+478 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\qs-e200c208b135451e.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs
+479 silly install write writing on-finished 2.3.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+480 silly install write writing bytes 2.3.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes
+481 silly install write writing content-type 1.0.2 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type
+482 silly install write writing raw-body 2.1.6 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+483 silly install write writing type-is 1.6.13 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+484 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\iconv-lite-99c82e2cad1f8192.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite
+485 silly install write writing http-errors 1.4.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+486 silly install write writing qs 6.1.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs
+487 silly install write writing iconv-lite 0.4.13 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite
+488 verbose unbuild node_modules\body-parser\node_modules\depd
+489 verbose unbuild node_modules\body-parser\node_modules\debug
+490 verbose unbuild node_modules\body-parser\node_modules\on-finished
+491 verbose unbuild node_modules\body-parser\node_modules\bytes
+492 verbose unbuild node_modules\body-parser\node_modules\content-type
+493 verbose unbuild node_modules\body-parser\node_modules\raw-body
+494 verbose unbuild node_modules\body-parser\node_modules\type-is
+495 verbose unbuild node_modules\body-parser\node_modules\http-errors
+496 verbose unbuild node_modules\body-parser\node_modules\qs
+497 verbose unbuild node_modules\body-parser\node_modules\iconv-lite
+498 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd is being purged from base D:\传智工作室\express\project\meadowlark
+499 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd
+500 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug is being purged from base D:\传智工作室\express\project\meadowlark
+501 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+502 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished is being purged from base D:\传智工作室\express\project\meadowlark
+503 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+504 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes is being purged from base D:\传智工作室\express\project\meadowlark
+505 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes
+506 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type is being purged from base D:\传智工作室\express\project\meadowlark
+507 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type
+508 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body is being purged from base D:\传智工作室\express\project\meadowlark
+509 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+510 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is is being purged from base D:\传智工作室\express\project\meadowlark
+511 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+512 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\depd\1.1.0\package.tgz
+513 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd
+514 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd is being purged
+515 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd
+516 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\debug\2.2.0\package.tgz
+517 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+518 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug is being purged
+519 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+520 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors is being purged from base D:\传智工作室\express\project\meadowlark
+521 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+522 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\on-finished\2.3.0\package.tgz
+523 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+524 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished is being purged
+525 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+526 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs is being purged from base D:\传智工作室\express\project\meadowlark
+527 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs
+528 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\bytes\2.3.0\package.tgz
+529 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes
+530 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes is being purged
+531 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes
+532 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\content-type\1.0.2\package.tgz
+533 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type
+534 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type is being purged
+535 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type
+536 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\raw-body\2.1.6\package.tgz
+537 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+538 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body is being purged
+539 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+540 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\type-is\1.6.13\package.tgz
+541 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+542 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is is being purged
+543 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+544 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite is being purged from base D:\传智工作室\express\project\meadowlark
+545 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite
+546 silly gunzTarPerm modes [ '777', '666' ]
+547 silly gunzTarPerm modes [ '777', '666' ]
+548 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\http-errors\1.4.0\package.tgz
+549 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+550 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors is being purged
+551 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+552 silly gunzTarPerm modes [ '777', '666' ]
+553 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\qs\6.1.0\package.tgz
+554 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs
+555 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs is being purged
+556 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs
+557 silly gunzTarPerm modes [ '777', '666' ]
+558 silly gunzTarPerm modes [ '777', '666' ]
+559 silly gunzTarPerm modes [ '777', '666' ]
+560 silly gunzTarPerm modes [ '777', '666' ]
+561 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\iconv-lite\0.4.13\package.tgz
+562 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite
+563 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite is being purged
+564 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite
+565 silly gunzTarPerm modes [ '777', '666' ]
+566 silly gunzTarPerm modes [ '777', '666' ]
+567 silly gunzTarPerm modes [ '777', '666' ]
+568 silly gunzTarPerm extractEntry package.json
+569 silly gunzTarPerm extractEntry package.json
+570 silly gunzTarPerm extractEntry package.json
+571 silly gunzTarPerm extractEntry package.json
+572 silly gunzTarPerm extractEntry package.json
+573 silly gunzTarPerm extractEntry package.json
+574 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+575 silly gunzTarPerm extractEntry package.json
+576 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+577 silly gunzTarPerm extractEntry LICENSE
+578 silly gunzTarPerm extractEntry index.js
+579 silly gunzTarPerm extractEntry README.md
+580 silly gunzTarPerm extractEntry LICENSE
+581 silly gunzTarPerm extractEntry README.md
+582 silly gunzTarPerm extractEntry LICENSE
+583 silly gunzTarPerm extractEntry package.json
+584 silly gunzTarPerm extractEntry README.md
+585 silly gunzTarPerm extractEntry LICENSE
+586 silly gunzTarPerm extractEntry README.md
+587 silly gunzTarPerm extractEntry LICENSE
+588 silly gunzTarPerm extractEntry .npmignore
+589 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+590 silly gunzTarPerm extractEntry README.md
+591 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+592 silly gunzTarPerm extractEntry .npmignore
+593 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+594 silly gunzTarPerm extractEntry README.md
+595 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+596 silly gunzTarPerm extractEntry LICENSE
+597 silly gunzTarPerm extractEntry index.js
+598 silly gunzTarPerm extractEntry package.json
+599 silly gunzTarPerm extractEntry History.md
+600 silly gunzTarPerm extractEntry Readme.md
+601 silly gunzTarPerm extractEntry index.js
+602 silly gunzTarPerm extractEntry HISTORY.md
+603 silly gunzTarPerm extractEntry index.js
+604 silly gunzTarPerm extractEntry HISTORY.md
+605 silly gunzTarPerm extractEntry index.js
+606 silly gunzTarPerm extractEntry HISTORY.md
+607 silly gunzTarPerm extractEntry index.js
+608 silly gunzTarPerm extractEntry HISTORY.md
+609 silly gunzTarPerm extractEntry README.md
+610 silly gunzTarPerm extractEntry LICENSE
+611 silly gunzTarPerm extractEntry LICENSE
+612 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+613 silly gunzTarPerm extractEntry .travis.yml
+614 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+615 silly gunzTarPerm extractEntry CHANGELOG.md
+616 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+617 silly gunzTarPerm extractEntry CONTRIBUTING.md
+618 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+619 silly gunzTarPerm extractEntry .eslintrc
+620 silly gunzTarPerm modified mode [ '.eslintrc', 420, 438 ]
+621 silly gunzTarPerm extractEntry bower.json
+622 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+623 silly gunzTarPerm extractEntry component.json
+624 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+625 silly gunzTarPerm extractEntry dist/qs.js
+626 silly gunzTarPerm modified mode [ 'dist/qs.js', 420, 438 ]
+627 silly gunzTarPerm extractEntry lib/index.js
+628 silly gunzTarPerm modified mode [ 'lib/index.js', 493, 511 ]
+629 silly gunzTarPerm extractEntry lib/parse.js
+630 silly gunzTarPerm modified mode [ 'lib/parse.js', 493, 511 ]
+631 silly gunzTarPerm extractEntry lib/stringify.js
+632 silly gunzTarPerm modified mode [ 'lib/stringify.js', 493, 511 ]
+633 silly gunzTarPerm extractEntry lib/utils.js
+634 silly gunzTarPerm modified mode [ 'lib/utils.js', 493, 511 ]
+635 silly gunzTarPerm extractEntry .eslintignore
+636 silly gunzTarPerm modified mode [ '.eslintignore', 420, 438 ]
+637 silly gunzTarPerm extractEntry test/index.js
+638 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+639 silly gunzTarPerm extractEntry test/parse.js
+640 silly gunzTarPerm modified mode [ 'test/parse.js', 493, 511 ]
+641 silly gunzTarPerm extractEntry test/stringify.js
+642 silly gunzTarPerm modified mode [ 'test/stringify.js', 493, 511 ]
+643 silly gunzTarPerm extractEntry test/utils.js
+644 silly gunzTarPerm modified mode [ 'test/utils.js', 493, 511 ]
+645 silly gunzTarPerm extractEntry LICENSE
+646 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+647 silly gunzTarPerm extractEntry encodings/dbcs-codec.js
+648 silly gunzTarPerm modified mode [ 'encodings/dbcs-codec.js', 420, 438 ]
+649 silly gunzTarPerm extractEntry History.md
+650 silly gunzTarPerm extractEntry Readme.md
+651 silly gunzTarPerm extractEntry lib/browser/index.js
+652 silly gunzTarPerm extractEntry lib/compat/buffer-concat.js
+653 silly gunzTarPerm extractEntry lib/compat/callsite-tostring.js
+654 silly gunzTarPerm extractEntry lib/compat/event-listener-count.js
+655 silly gunzTarPerm extractEntry lib/compat/index.js
+656 silly gunzTarPerm extractEntry package.json
+657 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+658 silly gunzTarPerm extractEntry .npmignore
+659 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+660 silly gunzTarPerm extractEntry node.js
+661 silly gunzTarPerm modified mode [ 'node.js', 420, 438 ]
+662 silly gunzTarPerm extractEntry index.js
+663 silly gunzTarPerm extractEntry HISTORY.md
+664 silly gunzTarPerm extractEntry encodings/dbcs-data.js
+665 silly gunzTarPerm modified mode [ 'encodings/dbcs-data.js', 420, 438 ]
+666 silly gunzTarPerm extractEntry debug.js
+667 silly gunzTarPerm modified mode [ 'debug.js', 420, 438 ]
+668 silly gunzTarPerm extractEntry browser.js
+669 silly gunzTarPerm modified mode [ 'browser.js', 420, 438 ]
+670 silly gunzTarPerm extractEntry Readme.md
+671 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+672 silly gunzTarPerm extractEntry encodings/index.js
+673 silly gunzTarPerm modified mode [ 'encodings/index.js', 420, 438 ]
+674 silly gunzTarPerm extractEntry encodings/internal.js
+675 silly gunzTarPerm modified mode [ 'encodings/internal.js', 420, 438 ]
+676 silly gunzTarPerm extractEntry encodings/sbcs-codec.js
+677 silly gunzTarPerm modified mode [ 'encodings/sbcs-codec.js', 420, 438 ]
+678 silly gunzTarPerm extractEntry encodings/sbcs-data-generated.js
+679 silly gunzTarPerm modified mode [ 'encodings/sbcs-data-generated.js', 420, 438 ]
+680 silly gunzTarPerm extractEntry encodings/sbcs-data.js
+681 silly gunzTarPerm modified mode [ 'encodings/sbcs-data.js', 420, 438 ]
+682 silly gunzTarPerm extractEntry bower.json
+683 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+684 silly gunzTarPerm extractEntry .jshintrc
+685 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+686 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\package.json
+687 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type\package.json
+688 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes\package.json
+689 info preinstall http-errors@1.4.0
+690 info preinstall content-type@1.0.2
+691 silly gunzTarPerm extractEntry component.json
+692 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+693 silly gunzTarPerm extractEntry Makefile
+694 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+695 info preinstall bytes@2.3.0
+696 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\package.json
+697 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\package.json
+698 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type\package.json
+699 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes\package.json
+700 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\package.json
+701 info preinstall type-is@1.6.13
+702 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\package.json
+703 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\package.json
+704 info preinstall raw-body@2.1.6
+705 silly prepareForInstallMany adding inherits@2.0.1 from http-errors dependencies
+706 silly prepareForInstallMany adding statuses@>= 1.2.1 < 2 from http-errors dependencies
+707 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\package.json
+708 silly gunzTarPerm extractEntry encodings/utf16.js
+709 silly gunzTarPerm modified mode [ 'encodings/utf16.js', 420, 438 ]
+710 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type\package.json
+711 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\package.json
+712 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes\package.json
+713 silly gunzTarPerm extractEntry History.md
+714 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+715 info preinstall on-finished@2.3.0
+716 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\package.json
+717 silly prepareForInstallMany adding media-typer@0.3.0 from type-is dependencies
+718 silly prepareForInstallMany adding mime-types@~2.1.11 from type-is dependencies
+719 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\package.json
+720 silly prepareForInstallMany adding ee-first@1.1.1 from on-finished dependencies
+721 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\package.json
+722 silly install resolved []
+723 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type
+724 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type
+725 silly prepareForInstallMany adding unpipe@1.0.0 from raw-body dependencies
+726 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\package.json
+727 silly cache add args [ 'inherits@2.0.1', null ]
+728 verbose cache add spec inherits@2.0.1
+729 silly cache add parsed spec { raw: 'inherits@2.0.1',
+729 silly cache add   scope: null,
+729 silly cache add   name: 'inherits',
+729 silly cache add   rawSpec: '2.0.1',
+729 silly cache add   spec: '2.0.1',
+729 silly cache add   type: 'version' }
+730 silly addNamed inherits@2.0.1
+731 verbose addNamed "2.0.1" is a plain semver version for inherits
+732 silly mapToRegistry name inherits
+733 silly mapToRegistry using default registry
+734 silly mapToRegistry registry https://registry.npmjs.org/
+735 silly mapToRegistry uri https://registry.npmjs.org/inherits
+736 verbose addNameVersion registry:https://registry.npmjs.org/inherits not in flight; fetching
+737 silly cache add args [ 'statuses@>= 1.2.1 < 2', null ]
+738 verbose cache add spec statuses@>= 1.2.1 < 2
+739 silly cache add parsed spec { raw: 'statuses@>= 1.2.1 < 2',
+739 silly cache add   scope: null,
+739 silly cache add   name: 'statuses',
+739 silly cache add   rawSpec: '>= 1.2.1 < 2',
+739 silly cache add   spec: '>=1.2.1 <2.0.0',
+739 silly cache add   type: 'range' }
+740 silly addNamed statuses@>=1.2.1 <2.0.0
+741 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for statuses
+742 silly addNameRange { name: 'statuses', range: '>=1.2.1 <2.0.0', hasData: false }
+743 silly mapToRegistry name statuses
+744 silly mapToRegistry using default registry
+745 silly mapToRegistry registry https://registry.npmjs.org/
+746 silly mapToRegistry uri https://registry.npmjs.org/statuses
+747 verbose addNameRange registry:https://registry.npmjs.org/statuses not in flight; fetching
+748 silly install resolved []
+749 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes
+750 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes
+751 silly gunzTarPerm extractEntry encodings/utf7.js
+752 silly gunzTarPerm modified mode [ 'encodings/utf7.js', 420, 438 ]
+753 silly gunzTarPerm extractEntry encodings/tables/big5-added.json
+754 silly gunzTarPerm modified mode [ 'encodings/tables/big5-added.json', 420, 438 ]
+755 verbose request uri https://registry.npmjs.org/statuses
+756 verbose request no auth needed
+757 info attempt registry request try #1 at 11:18:05
+758 verbose etag "4K1W4QJ5RREPY80K2RD35KAB"
+759 http request GET https://registry.npmjs.org/statuses
+760 verbose request uri https://registry.npmjs.org/inherits
+761 verbose request no auth needed
+762 info attempt registry request try #1 at 11:18:05
+763 verbose etag "9C23BNETE30UZVYRVML0QUTBX"
+764 http request GET https://registry.npmjs.org/inherits
+765 silly cache add args [ 'ee-first@1.1.1', null ]
+766 verbose cache add spec ee-first@1.1.1
+767 silly cache add parsed spec { raw: 'ee-first@1.1.1',
+767 silly cache add   scope: null,
+767 silly cache add   name: 'ee-first',
+767 silly cache add   rawSpec: '1.1.1',
+767 silly cache add   spec: '1.1.1',
+767 silly cache add   type: 'version' }
+768 silly addNamed ee-first@1.1.1
+769 verbose addNamed "1.1.1" is a plain semver version for ee-first
+770 silly mapToRegistry name ee-first
+771 silly mapToRegistry using default registry
+772 silly mapToRegistry registry https://registry.npmjs.org/
+773 silly mapToRegistry uri https://registry.npmjs.org/ee-first
+774 verbose addNameVersion registry:https://registry.npmjs.org/ee-first not in flight; fetching
+775 info linkStuff content-type@1.0.2
+776 silly linkStuff content-type@1.0.2 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+777 info linkStuff bytes@2.3.0
+778 silly linkStuff bytes@2.3.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+779 silly cache add args [ 'media-typer@0.3.0', null ]
+780 verbose cache add spec media-typer@0.3.0
+781 silly cache add parsed spec { raw: 'media-typer@0.3.0',
+781 silly cache add   scope: null,
+781 silly cache add   name: 'media-typer',
+781 silly cache add   rawSpec: '0.3.0',
+781 silly cache add   spec: '0.3.0',
+781 silly cache add   type: 'version' }
+782 silly addNamed media-typer@0.3.0
+783 verbose addNamed "0.3.0" is a plain semver version for media-typer
+784 silly mapToRegistry name media-typer
+785 silly mapToRegistry using default registry
+786 silly mapToRegistry registry https://registry.npmjs.org/
+787 silly mapToRegistry uri https://registry.npmjs.org/media-typer
+788 verbose addNameVersion registry:https://registry.npmjs.org/media-typer not in flight; fetching
+789 silly cache add args [ 'mime-types@~2.1.11', null ]
+790 verbose cache add spec mime-types@~2.1.11
+791 silly cache add parsed spec { raw: 'mime-types@~2.1.11',
+791 silly cache add   scope: null,
+791 silly cache add   name: 'mime-types',
+791 silly cache add   rawSpec: '~2.1.11',
+791 silly cache add   spec: '>=2.1.11 <2.2.0',
+791 silly cache add   type: 'range' }
+792 silly addNamed mime-types@>=2.1.11 <2.2.0
+793 verbose addNamed ">=2.1.11 <2.2.0" is a valid semver range for mime-types
+794 silly addNameRange { name: 'mime-types', range: '>=2.1.11 <2.2.0', hasData: false }
+795 silly mapToRegistry name mime-types
+796 silly mapToRegistry using default registry
+797 silly mapToRegistry registry https://registry.npmjs.org/
+798 silly mapToRegistry uri https://registry.npmjs.org/mime-types
+799 verbose addNameRange registry:https://registry.npmjs.org/mime-types not in flight; fetching
+800 silly cache add args [ 'unpipe@1.0.0', null ]
+801 verbose cache add spec unpipe@1.0.0
+802 silly cache add parsed spec { raw: 'unpipe@1.0.0',
+802 silly cache add   scope: null,
+802 silly cache add   name: 'unpipe',
+802 silly cache add   rawSpec: '1.0.0',
+802 silly cache add   spec: '1.0.0',
+802 silly cache add   type: 'version' }
+803 silly addNamed unpipe@1.0.0
+804 verbose addNamed "1.0.0" is a plain semver version for unpipe
+805 silly mapToRegistry name unpipe
+806 silly mapToRegistry using default registry
+807 silly mapToRegistry registry https://registry.npmjs.org/
+808 silly mapToRegistry uri https://registry.npmjs.org/unpipe
+809 verbose addNameVersion registry:https://registry.npmjs.org/unpipe not in flight; fetching
+810 verbose request uri https://registry.npmjs.org/ee-first
+811 verbose request no auth needed
+812 info attempt registry request try #1 at 11:18:05
+813 verbose etag "3ZYG9XA9BYU1KE2TX5MRV6U1N"
+814 http request GET https://registry.npmjs.org/ee-first
+815 verbose request uri https://registry.npmjs.org/media-typer
+816 verbose request no auth needed
+817 info attempt registry request try #1 at 11:18:05
+818 verbose etag "5ORHZTRRI5PL86YTBCZIWPFWT"
+819 http request GET https://registry.npmjs.org/media-typer
+820 verbose linkBins content-type@1.0.2
+821 verbose linkMans content-type@1.0.2
+822 verbose rebuildBundles content-type@1.0.2
+823 verbose linkBins bytes@2.3.0
+824 verbose linkMans bytes@2.3.0
+825 verbose rebuildBundles bytes@2.3.0
+826 info install content-type@1.0.2
+827 info install bytes@2.3.0
+828 info postinstall content-type@1.0.2
+829 info postinstall bytes@2.3.0
+830 silly gunzTarPerm extractEntry encodings/tables/cp936.json
+831 silly gunzTarPerm modified mode [ 'encodings/tables/cp936.json', 420, 438 ]
+832 silly gunzTarPerm extractEntry encodings/tables/cp949.json
+833 silly gunzTarPerm modified mode [ 'encodings/tables/cp949.json', 420, 438 ]
+834 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\content-type-8ac16fa3e72c201e.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\content-type
+835 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\bytes-16304727c63910a2.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\bytes
+836 verbose request uri https://registry.npmjs.org/mime-types
+837 verbose request no auth needed
+838 info attempt registry request try #1 at 11:18:05
+839 verbose etag "6DRB8UMPN10CQEDW0PW2KP5BA"
+840 http request GET https://registry.npmjs.org/mime-types
+841 verbose request uri https://registry.npmjs.org/unpipe
+842 verbose request no auth needed
+843 info attempt registry request try #1 at 11:18:05
+844 verbose etag "DND474O8B0RXBZOJNUAWLUERQ"
+845 http request GET https://registry.npmjs.org/unpipe
+846 silly gunzTarPerm extractEntry encodings/tables/cp950.json
+847 silly gunzTarPerm modified mode [ 'encodings/tables/cp950.json', 420, 438 ]
+848 silly gunzTarPerm extractEntry encodings/tables/eucjp.json
+849 silly gunzTarPerm modified mode [ 'encodings/tables/eucjp.json', 420, 438 ]
+850 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd\package.json
+851 silly gunzTarPerm extractEntry encodings/tables/gb18030-ranges.json
+852 silly gunzTarPerm modified mode [ 'encodings/tables/gb18030-ranges.json', 420, 438 ]
+853 info preinstall depd@1.1.0
+854 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd\package.json
+855 silly gunzTarPerm extractEntry encodings/tables/gbk-added.json
+856 silly gunzTarPerm modified mode [ 'encodings/tables/gbk-added.json', 420, 438 ]
+857 silly gunzTarPerm extractEntry encodings/tables/shiftjis.json
+858 silly gunzTarPerm modified mode [ 'encodings/tables/shiftjis.json', 420, 438 ]
+859 silly gunzTarPerm extractEntry .travis.yml
+860 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+861 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd\package.json
+862 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\package.json
+863 silly install resolved []
+864 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd
+865 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd
+866 info preinstall debug@2.2.0
+867 info linkStuff depd@1.1.0
+868 silly linkStuff depd@1.1.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+869 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\package.json
+870 silly prepareForInstallMany adding ms@0.7.1 from debug dependencies
+871 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\package.json
+872 verbose linkBins depd@1.1.0
+873 verbose linkMans depd@1.1.0
+874 verbose rebuildBundles depd@1.1.0
+875 info install depd@1.1.0
+876 silly cache add args [ 'ms@0.7.1', null ]
+877 verbose cache add spec ms@0.7.1
+878 silly cache add parsed spec { raw: 'ms@0.7.1',
+878 silly cache add   scope: null,
+878 silly cache add   name: 'ms',
+878 silly cache add   rawSpec: '0.7.1',
+878 silly cache add   spec: '0.7.1',
+878 silly cache add   type: 'version' }
+879 silly addNamed ms@0.7.1
+880 verbose addNamed "0.7.1" is a plain semver version for ms
+881 silly mapToRegistry name ms
+882 silly mapToRegistry using default registry
+883 silly mapToRegistry registry https://registry.npmjs.org/
+884 silly mapToRegistry uri https://registry.npmjs.org/ms
+885 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+886 info postinstall depd@1.1.0
+887 silly gunzTarPerm extractEntry lib/bom-handling.js
+888 silly gunzTarPerm modified mode [ 'lib/bom-handling.js', 420, 438 ]
+889 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\depd-c80aaa70c472e859.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\depd
+890 silly gunzTarPerm extractEntry lib/extend-node.js
+891 silly gunzTarPerm modified mode [ 'lib/extend-node.js', 420, 438 ]
+892 silly gunzTarPerm extractEntry lib/index.js
+893 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+894 silly gunzTarPerm extractEntry lib/streams.js
+895 silly gunzTarPerm modified mode [ 'lib/streams.js', 420, 438 ]
+896 silly gunzTarPerm extractEntry Changelog.md
+897 silly gunzTarPerm modified mode [ 'Changelog.md', 420, 438 ]
+898 verbose request uri https://registry.npmjs.org/ms
+899 verbose request no auth needed
+900 info attempt registry request try #1 at 11:18:05
+901 verbose etag "EJ8OL12OQ5HB3FAFB64BNJ7M3"
+902 http request GET https://registry.npmjs.org/ms
+903 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs\package.json
+904 info preinstall qs@6.1.0
+905 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs\package.json
+906 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs\package.json
+907 silly install resolved []
+908 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs
+909 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs
+910 info linkStuff qs@6.1.0
+911 silly linkStuff qs@6.1.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+912 verbose linkBins qs@6.1.0
+913 verbose linkMans qs@6.1.0
+914 verbose rebuildBundles qs@6.1.0
+915 info install qs@6.1.0
+916 info postinstall qs@6.1.0
+917 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\qs-e200c208b135451e.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\qs
+918 http 304 https://registry.npmjs.org/inherits
+919 silly get cb [ 304,
+919 silly get   { date: 'Mon, 13 Jun 2016 03:18:06 GMT',
+919 silly get     via: '1.1 varnish',
+919 silly get     'cache-control': 'max-age=300',
+919 silly get     etag: '"9C23BNETE30UZVYRVML0QUTBX"',
+919 silly get     age: '4',
+919 silly get     connection: 'keep-alive',
+919 silly get     'x-served-by': 'cache-sin6927-SIN',
+919 silly get     'x-cache': 'HIT',
+919 silly get     'x-cache-hits': '59',
+919 silly get     'x-timer': 'S1465787886.334790,VS0,VE0',
+919 silly get     vary: 'Accept-Encoding' } ]
+920 verbose etag https://registry.npmjs.org/inherits from cache
+921 verbose get saving inherits to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\inherits\.cache.json
+922 http 200 https://registry.npmjs.org/statuses
+923 silly get cb [ 200,
+923 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+923 silly get     etag: '"3KCKUNZRW6W4E0ICQ29QZ13KW"',
+923 silly get     'content-type': 'application/json',
+923 silly get     'content-encoding': 'gzip',
+923 silly get     'cache-control': 'max-age=300',
+923 silly get     'content-length': '3805',
+923 silly get     'accept-ranges': 'bytes',
+923 silly get     date: 'Mon, 13 Jun 2016 03:18:06 GMT',
+923 silly get     via: '1.1 varnish',
+923 silly get     age: '227',
+923 silly get     connection: 'keep-alive',
+923 silly get     'x-served-by': 'cache-sin6921-SIN',
+923 silly get     'x-cache': 'HIT',
+923 silly get     'x-cache-hits': '19',
+923 silly get     'x-timer': 'S1465787886.350312,VS0,VE0',
+923 silly get     vary: 'Accept-Encoding' } ]
+924 verbose get saving statuses to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\statuses\.cache.json
+925 silly addNameRange number 2 { name: 'statuses', range: '>=1.2.1 <2.0.0', hasData: true }
+926 silly addNameRange versions [ 'statuses',
+926 silly addNameRange   [ '1.0.1',
+926 silly addNameRange     '1.0.2',
+926 silly addNameRange     '1.0.3',
+926 silly addNameRange     '1.0.4',
+926 silly addNameRange     '1.1.0',
+926 silly addNameRange     '1.1.1',
+926 silly addNameRange     '1.2.0',
+926 silly addNameRange     '1.2.1',
+926 silly addNameRange     '1.3.0' ] ]
+927 silly addNamed statuses@1.3.0
+928 verbose addNamed "1.3.0" is a plain semver version for statuses
+929 silly mapToRegistry name statuses
+930 silly mapToRegistry using default registry
+931 silly mapToRegistry registry https://registry.npmjs.org/
+932 silly mapToRegistry uri https://registry.npmjs.org/statuses
+933 verbose addRemoteTarball https://registry.npmjs.org/statuses/-/statuses-1.3.0.tgz not in flight; adding
+934 verbose addRemoteTarball [ 'https://registry.npmjs.org/statuses/-/statuses-1.3.0.tgz',
+934 verbose addRemoteTarball   '8e55758cb20e7682c1f4fce8dcab30bf01d1e07a' ]
+935 info retry fetch attempt 1 at 11:18:05
+936 info attempt registry request try #1 at 11:18:05
+937 http fetch GET https://registry.npmjs.org/statuses/-/statuses-1.3.0.tgz
+938 silly cache afterAdd inherits@2.0.1
+939 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json not in flight; writing
+940 http 304 https://registry.npmjs.org/ee-first
+941 silly get cb [ 304,
+941 silly get   { date: 'Mon, 13 Jun 2016 03:18:06 GMT',
+941 silly get     via: '1.1 varnish',
+941 silly get     'cache-control': 'max-age=300',
+941 silly get     etag: '"3ZYG9XA9BYU1KE2TX5MRV6U1N"',
+941 silly get     age: '214',
+941 silly get     connection: 'keep-alive',
+941 silly get     'x-served-by': 'cache-sin6922-SIN',
+941 silly get     'x-cache': 'HIT',
+941 silly get     'x-cache-hits': '12',
+941 silly get     'x-timer': 'S1465787886.367646,VS0,VE0',
+941 silly get     vary: 'Accept-Encoding' } ]
+942 verbose etag https://registry.npmjs.org/ee-first from cache
+943 verbose get saving ee-first to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\ee-first\.cache.json
+944 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json written
+945 http 304 https://registry.npmjs.org/media-typer
+946 silly get cb [ 304,
+946 silly get   { date: 'Mon, 13 Jun 2016 03:18:06 GMT',
+946 silly get     via: '1.1 varnish',
+946 silly get     'cache-control': 'max-age=300',
+946 silly get     etag: '"5ORHZTRRI5PL86YTBCZIWPFWT"',
+946 silly get     age: '85',
+946 silly get     connection: 'keep-alive',
+946 silly get     'x-served-by': 'cache-sin6922-SIN',
+946 silly get     'x-cache': 'HIT',
+946 silly get     'x-cache-hits': '3',
+946 silly get     'x-timer': 'S1465787886.374753,VS0,VE0',
+946 silly get     vary: 'Accept-Encoding' } ]
+947 verbose etag https://registry.npmjs.org/media-typer from cache
+948 verbose get saving media-typer to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\media-typer\.cache.json
+949 silly cache afterAdd media-typer@0.3.0
+950 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\media-typer\0.3.0\package\package.json not in flight; writing
+951 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\media-typer\0.3.0\package\package.json written
+952 http 304 https://registry.npmjs.org/unpipe
+953 silly get cb [ 304,
+953 silly get   { date: 'Mon, 13 Jun 2016 03:18:06 GMT',
+953 silly get     via: '1.1 varnish',
+953 silly get     'cache-control': 'max-age=300',
+953 silly get     etag: '"DND474O8B0RXBZOJNUAWLUERQ"',
+953 silly get     age: '119',
+953 silly get     connection: 'keep-alive',
+953 silly get     'x-served-by': 'cache-sin6924-SIN',
+953 silly get     'x-cache': 'HIT',
+953 silly get     'x-cache-hits': '4',
+953 silly get     'x-timer': 'S1465787886.388988,VS0,VE0',
+953 silly get     vary: 'Accept-Encoding' } ]
+954 verbose etag https://registry.npmjs.org/unpipe from cache
+955 verbose get saving unpipe to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\unpipe\.cache.json
+956 http 200 https://registry.npmjs.org/mime-types
+957 silly get cb [ 200,
+957 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+957 silly get     etag: '"3O7DWUBEADFVPGVCL21NGLBAG"',
+957 silly get     'content-type': 'application/json',
+957 silly get     'content-encoding': 'gzip',
+957 silly get     'cache-control': 'max-age=300',
+957 silly get     'content-length': '6820',
+957 silly get     'accept-ranges': 'bytes',
+957 silly get     date: 'Mon, 13 Jun 2016 03:18:06 GMT',
+957 silly get     via: '1.1 varnish',
+957 silly get     age: '287',
+957 silly get     connection: 'keep-alive',
+957 silly get     'x-served-by': 'cache-sin6922-SIN',
+957 silly get     'x-cache': 'HIT',
+957 silly get     'x-cache-hits': '30',
+957 silly get     'x-timer': 'S1465787886.395491,VS0,VE0',
+957 silly get     vary: 'Accept-Encoding' } ]
+958 verbose get saving mime-types to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\mime-types\.cache.json
+959 silly addNameRange number 2 { name: 'mime-types', range: '>=2.1.11 <2.2.0', hasData: true }
+960 silly addNameRange versions [ 'mime-types',
+960 silly addNameRange   [ '0.1.0',
+960 silly addNameRange     '1.0.0',
+960 silly addNameRange     '1.0.1',
+960 silly addNameRange     '1.0.2',
+960 silly addNameRange     '2.0.0',
+960 silly addNameRange     '2.0.1',
+960 silly addNameRange     '2.0.2',
+960 silly addNameRange     '2.0.3',
+960 silly addNameRange     '2.0.4',
+960 silly addNameRange     '2.0.5',
+960 silly addNameRange     '2.0.6',
+960 silly addNameRange     '2.0.7',
+960 silly addNameRange     '2.0.8',
+960 silly addNameRange     '2.0.9',
+960 silly addNameRange     '2.0.10',
+960 silly addNameRange     '2.0.11',
+960 silly addNameRange     '2.0.12',
+960 silly addNameRange     '2.0.13',
+960 silly addNameRange     '2.0.14',
+960 silly addNameRange     '2.1.0',
+960 silly addNameRange     '2.1.1',
+960 silly addNameRange     '2.1.2',
+960 silly addNameRange     '2.1.3',
+960 silly addNameRange     '2.1.4',
+960 silly addNameRange     '2.1.5',
+960 silly addNameRange     '2.1.6',
+960 silly addNameRange     '2.1.7',
+960 silly addNameRange     '2.1.8',
+960 silly addNameRange     '2.1.9',
+960 silly addNameRange     '2.1.10',
+960 silly addNameRange     '2.1.11' ] ]
+961 silly addNamed mime-types@2.1.11
+962 verbose addNamed "2.1.11" is a plain semver version for mime-types
+963 silly mapToRegistry name mime-types
+964 silly mapToRegistry using default registry
+965 silly mapToRegistry registry https://registry.npmjs.org/
+966 silly mapToRegistry uri https://registry.npmjs.org/mime-types
+967 verbose addRemoteTarball https://registry.npmjs.org/mime-types/-/mime-types-2.1.11.tgz not in flight; adding
+968 verbose addRemoteTarball [ 'https://registry.npmjs.org/mime-types/-/mime-types-2.1.11.tgz',
+968 verbose addRemoteTarball   'c259c471bda808a85d6cd193b430a5fae4473b3c' ]
+969 info retry fetch attempt 1 at 11:18:05
+970 info attempt registry request try #1 at 11:18:05
+971 http fetch GET https://registry.npmjs.org/mime-types/-/mime-types-2.1.11.tgz
+972 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite\package.json
+973 silly cache afterAdd unpipe@1.0.0
+974 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\unpipe\1.0.0\package\package.json not in flight; writing
+975 info preinstall iconv-lite@0.4.13
+976 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\unpipe\1.0.0\package\package.json written
+977 silly install resolved [ { name: 'unpipe',
+977 silly install resolved     description: 'Unpipe a stream from all destinations',
+977 silly install resolved     version: '1.0.0',
+977 silly install resolved     author:
+977 silly install resolved      { name: 'Douglas Christopher Wilson',
+977 silly install resolved        email: 'doug@somethingdoug.com' },
+977 silly install resolved     license: 'MIT',
+977 silly install resolved     repository:
+977 silly install resolved      { type: 'git',
+977 silly install resolved        url: 'git+https://github.com/stream-utils/unpipe.git' },
+977 silly install resolved     devDependencies:
+977 silly install resolved      { istanbul: '0.3.15',
+977 silly install resolved        mocha: '2.2.5',
+977 silly install resolved        'readable-stream': '1.1.13' },
+977 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'index.js' ],
+977 silly install resolved     engines: { node: '>= 0.8' },
+977 silly install resolved     scripts:
+977 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+977 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+977 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+977 silly install resolved     gitHead: 'd2df901c06487430e78dca62b6edb8bb2fc5e99d',
+977 silly install resolved     bugs: { url: 'https://github.com/stream-utils/unpipe/issues' },
+977 silly install resolved     homepage: 'https://github.com/stream-utils/unpipe',
+977 silly install resolved     _id: 'unpipe@1.0.0',
+977 silly install resolved     _shasum: 'b2bf4ee8514aae6165b4817829d21b2ef49904ec',
+977 silly install resolved     _from: 'unpipe@1.0.0',
+977 silly install resolved     _npmVersion: '1.4.28',
+977 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+977 silly install resolved     maintainers: [ [Object] ],
+977 silly install resolved     dist:
+977 silly install resolved      { shasum: 'b2bf4ee8514aae6165b4817829d21b2ef49904ec',
+977 silly install resolved        tarball: 'https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz' },
+977 silly install resolved     directories: {},
+977 silly install resolved     _resolved: 'https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz',
+977 silly install resolved     readme: 'ERROR: No README data found!' } ]
+978 info install unpipe@1.0.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+979 info installOne unpipe@1.0.0
+980 verbose installOne of unpipe to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body not in flight; installing
+981 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite\package.json
+982 silly cache afterAdd ee-first@1.1.1
+983 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\ee-first\1.1.1\package\package.json not in flight; writing
+984 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\unpipe-e2525582a66c1858.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+985 silly install write writing unpipe 1.0.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+986 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\ee-first\1.1.1\package\package.json written
+987 silly install resolved [ { name: 'ee-first',
+987 silly install resolved     description: 'return the first event in a set of ee/event pairs',
+987 silly install resolved     version: '1.1.1',
+987 silly install resolved     author:
+987 silly install resolved      { name: 'Jonathan Ong',
+987 silly install resolved        email: 'me@jongleberry.com',
+987 silly install resolved        url: 'http://jongleberry.com' },
+987 silly install resolved     contributors: [ [Object] ],
+987 silly install resolved     license: 'MIT',
+987 silly install resolved     repository:
+987 silly install resolved      { type: 'git',
+987 silly install resolved        url: 'git+https://github.com/jonathanong/ee-first.git' },
+987 silly install resolved     devDependencies: { istanbul: '0.3.9', mocha: '2.2.5' },
+987 silly install resolved     files: [ 'index.js', 'LICENSE' ],
+987 silly install resolved     scripts:
+987 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+987 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+987 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+987 silly install resolved     gitHead: '512e0ce4cc3643f603708f965a97b61b1a9c0441',
+987 silly install resolved     bugs: { url: 'https://github.com/jonathanong/ee-first/issues' },
+987 silly install resolved     homepage: 'https://github.com/jonathanong/ee-first',
+987 silly install resolved     _id: 'ee-first@1.1.1',
+987 silly install resolved     _shasum: '590c61156b0ae2f4f0255732a158b266bc56b21d',
+987 silly install resolved     _from: 'ee-first@1.1.1',
+987 silly install resolved     _npmVersion: '1.4.28',
+987 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+987 silly install resolved     maintainers: [ [Object], [Object] ],
+987 silly install resolved     dist:
+987 silly install resolved      { shasum: '590c61156b0ae2f4f0255732a158b266bc56b21d',
+987 silly install resolved        tarball: 'https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz' },
+987 silly install resolved     directories: {},
+987 silly install resolved     _resolved: 'https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz',
+987 silly install resolved     readme: 'ERROR: No README data found!' } ]
+988 info install ee-first@1.1.1 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+989 info installOne ee-first@1.1.1
+990 verbose installOne of ee-first to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished not in flight; installing
+991 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite\package.json
+992 verbose unbuild node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+993 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe is being purged from base D:\传智工作室\express\project\meadowlark
+994 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+995 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\unpipe\1.0.0\package.tgz
+996 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+997 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe is being purged
+998 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+999 silly gunzTarPerm modes [ '777', '666' ]
+1000 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\ee-first-482083773508e4a9.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1001 silly install write writing ee-first 1.1.1 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1002 silly install resolved []
+1003 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite
+1004 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite
+1005 verbose unbuild node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1006 http 200 https://registry.npmjs.org/ms
+1007 silly get cb [ 200,
+1007 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1007 silly get     etag: '"5143492BBX5I18XHV9RBWJ2GY"',
+1007 silly get     'content-type': 'application/json',
+1007 silly get     'content-encoding': 'gzip',
+1007 silly get     'cache-control': 'max-age=300',
+1007 silly get     'content-length': '2303',
+1007 silly get     'accept-ranges': 'bytes',
+1007 silly get     date: 'Mon, 13 Jun 2016 03:18:06 GMT',
+1007 silly get     via: '1.1 varnish',
+1007 silly get     age: '279',
+1007 silly get     connection: 'keep-alive',
+1007 silly get     'x-served-by': 'cache-sin6924-SIN',
+1007 silly get     'x-cache': 'HIT',
+1007 silly get     'x-cache-hits': '23',
+1007 silly get     'x-timer': 'S1465787886.451730,VS0,VE0',
+1007 silly get     vary: 'Accept-Encoding' } ]
+1008 verbose get saving ms to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\ms\.cache.json
+1009 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first is being purged from base D:\传智工作室\express\project\meadowlark
+1010 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1011 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\ee-first\1.1.1\package.tgz
+1012 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1013 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first is being purged
+1014 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1015 silly gunzTarPerm modes [ '777', '666' ]
+1016 info linkStuff iconv-lite@0.4.13
+1017 silly linkStuff iconv-lite@0.4.13 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+1018 silly gunzTarPerm extractEntry package.json
+1019 silly mapToRegistry name ms
+1020 silly mapToRegistry using default registry
+1021 silly mapToRegistry registry https://registry.npmjs.org/
+1022 silly mapToRegistry uri https://registry.npmjs.org/ms
+1023 verbose addRemoteTarball https://registry.npmjs.org/ms/-/ms-0.7.1.tgz not in flight; adding
+1024 verbose addRemoteTarball [ 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+1024 verbose addRemoteTarball   '9cd13c03adbff25b65effde7ce864ee952017098' ]
+1025 verbose linkBins iconv-lite@0.4.13
+1026 verbose linkMans iconv-lite@0.4.13
+1027 verbose rebuildBundles iconv-lite@0.4.13
+1028 silly gunzTarPerm extractEntry README.md
+1029 silly gunzTarPerm extractEntry LICENSE
+1030 info install iconv-lite@0.4.13
+1031 info retry fetch attempt 1 at 11:18:05
+1032 info attempt registry request try #1 at 11:18:05
+1033 http fetch GET https://registry.npmjs.org/ms/-/ms-0.7.1.tgz
+1034 info postinstall iconv-lite@0.4.13
+1035 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\iconv-lite-99c82e2cad1f8192.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\iconv-lite
+1036 silly gunzTarPerm extractEntry index.js
+1037 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first\package.json
+1038 info preinstall ee-first@1.1.1
+1039 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first\package.json
+1040 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first\package.json
+1041 silly install resolved []
+1042 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1043 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1044 info linkStuff ee-first@1.1.1
+1045 silly linkStuff ee-first@1.1.1 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules as its parent node_modules
+1046 verbose linkBins ee-first@1.1.1
+1047 verbose linkMans ee-first@1.1.1
+1048 verbose rebuildBundles ee-first@1.1.1
+1049 info install ee-first@1.1.1
+1050 info postinstall ee-first@1.1.1
+1051 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\ee-first-482083773508e4a9.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first
+1052 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+1053 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+1054 info linkStuff on-finished@2.3.0
+1055 silly linkStuff on-finished@2.3.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+1056 verbose linkBins on-finished@2.3.0
+1057 verbose linkMans on-finished@2.3.0
+1058 verbose rebuildBundles on-finished@2.3.0
+1059 verbose rebuildBundles [ 'ee-first' ]
+1060 info install on-finished@2.3.0
+1061 info postinstall on-finished@2.3.0
+1062 silly gunzTarPerm extractEntry package.json
+1063 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\on-finished-482b92e3cefdc155.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\on-finished
+1064 silly gunzTarPerm extractEntry README.md
+1065 silly gunzTarPerm extractEntry LICENSE
+1066 silly gunzTarPerm extractEntry index.js
+1067 silly gunzTarPerm extractEntry HISTORY.md
+1068 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe\package.json
+1069 info preinstall unpipe@1.0.0
+1070 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe\package.json
+1071 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe\package.json
+1072 silly install resolved []
+1073 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+1074 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+1075 info linkStuff unpipe@1.0.0
+1076 silly linkStuff unpipe@1.0.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules as its parent node_modules
+1077 verbose linkBins unpipe@1.0.0
+1078 verbose linkMans unpipe@1.0.0
+1079 verbose rebuildBundles unpipe@1.0.0
+1080 info install unpipe@1.0.0
+1081 info postinstall unpipe@1.0.0
+1082 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\unpipe-e2525582a66c1858.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe
+1083 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+1084 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+1085 info linkStuff raw-body@2.1.6
+1086 silly linkStuff raw-body@2.1.6 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+1087 http fetch 200 https://registry.npmjs.org/statuses/-/statuses-1.3.0.tgz
+1088 verbose linkBins raw-body@2.1.6
+1089 verbose linkMans raw-body@2.1.6
+1090 verbose rebuildBundles raw-body@2.1.6
+1091 verbose rebuildBundles [ 'unpipe' ]
+1092 info install raw-body@2.1.6
+1093 silly fetchAndShaCheck shasum 8e55758cb20e7682c1f4fce8dcab30bf01d1e07a
+1094 info postinstall raw-body@2.1.6
+1095 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\statuses\-\statuses-1.3.0.tgz not in flight; adding
+1096 verbose addTmpTarball already have metadata; skipping unpack for statuses@1.3.0
+1097 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\raw-body-e3aae9cfe4e31119.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\raw-body
+1098 silly cache afterAdd statuses@1.3.0
+1099 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\statuses\1.3.0\package\package.json not in flight; writing
+1100 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\statuses\1.3.0\package\package.json written
+1101 silly install resolved [ { name: 'inherits',
+1101 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+1101 silly install resolved     version: '2.0.1',
+1101 silly install resolved     keywords:
+1101 silly install resolved      [ 'inheritance',
+1101 silly install resolved        'class',
+1101 silly install resolved        'klass',
+1101 silly install resolved        'oop',
+1101 silly install resolved        'object-oriented',
+1101 silly install resolved        'inherits',
+1101 silly install resolved        'browser',
+1101 silly install resolved        'browserify' ],
+1101 silly install resolved     main: './inherits.js',
+1101 silly install resolved     browser: './inherits_browser.js',
+1101 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+1101 silly install resolved     license: 'ISC',
+1101 silly install resolved     scripts: { test: 'node test' },
+1101 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+1101 silly install resolved     _id: 'inherits@2.0.1',
+1101 silly install resolved     dist:
+1101 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+1101 silly install resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+1101 silly install resolved     _from: 'inherits@2.0.1',
+1101 silly install resolved     _npmVersion: '1.3.8',
+1101 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1101 silly install resolved     maintainers: [ [Object] ],
+1101 silly install resolved     directories: {},
+1101 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+1101 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+1101 silly install resolved     readme: 'ERROR: No README data found!',
+1101 silly install resolved     homepage: 'https://github.com/isaacs/inherits#readme' },
+1101 silly install resolved   { name: 'statuses',
+1101 silly install resolved     description: 'HTTP status utility',
+1101 silly install resolved     version: '1.3.0',
+1101 silly install resolved     contributors: [ [Object], [Object] ],
+1101 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/statuses' },
+1101 silly install resolved     license: 'MIT',
+1101 silly install resolved     keywords: [ 'http', 'status', 'code' ],
+1101 silly install resolved     files: [ 'HISTORY.md', 'index.js', 'codes.json', 'LICENSE' ],
+1101 silly install resolved     devDependencies:
+1101 silly install resolved      { 'csv-parse': '1.0.1',
+1101 silly install resolved        eslint: '2.10.2',
+1101 silly install resolved        'eslint-config-standard': '5.3.1',
+1101 silly install resolved        'eslint-plugin-promise': '1.1.0',
+1101 silly install resolved        'eslint-plugin-standard': '1.3.2',
+1101 silly install resolved        istanbul: '0.4.3',
+1101 silly install resolved        mocha: '1.21.5',
+1101 silly install resolved        'stream-to-array': '2.2.0' },
+1101 silly install resolved     engines: { node: '>= 0.6' },
+1101 silly install resolved     scripts:
+1101 silly install resolved      { build: 'node scripts/build.js',
+1101 silly install resolved        fetch: 'node scripts/fetch.js',
+1101 silly install resolved        lint: 'eslint **/*.js',
+1101 silly install resolved        test: 'mocha --reporter spec --check-leaks --bail test/',
+1101 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+1101 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+1101 silly install resolved        update: 'npm run fetch && npm run build' },
+1101 silly install resolved     gitHead: 'b3e31e8c32dd8107e898b44b8c0b2dfff3cba495',
+1101 silly install resolved     bugs: { url: 'https://github.com/jshttp/statuses/issues' },
+1101 silly install resolved     homepage: 'https://github.com/jshttp/statuses',
+1101 silly install resolved     _id: 'statuses@1.3.0',
+1101 silly install resolved     _shasum: '8e55758cb20e7682c1f4fce8dcab30bf01d1e07a',
+1101 silly install resolved     _from: 'statuses@>=1.2.1 <2.0.0',
+1101 silly install resolved     _npmVersion: '1.4.28',
+1101 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1101 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+1101 silly install resolved     dist:
+1101 silly install resolved      { shasum: '8e55758cb20e7682c1f4fce8dcab30bf01d1e07a',
+1101 silly install resolved        tarball: 'https://registry.npmjs.org/statuses/-/statuses-1.3.0.tgz' },
+1101 silly install resolved     _npmOperationalInternal:
+1101 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+1101 silly install resolved        tmp: 'tmp/statuses-1.3.0.tgz_1463517875633_0.19560232176445425' },
+1101 silly install resolved     directories: {},
+1101 silly install resolved     _resolved: 'https://registry.npmjs.org/statuses/-/statuses-1.3.0.tgz' } ]
+1102 info install inherits@2.0.1 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+1103 info install statuses@1.3.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+1104 info installOne inherits@2.0.1
+1105 verbose installOne of inherits to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors not in flight; installing
+1106 info installOne statuses@1.3.0
+1107 verbose installOne of statuses to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors not in flight; installing
+1108 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\inherits-34dcb5c20dd516b7.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1109 silly install write writing inherits 2.0.1 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1110 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\statuses-d35c91480c11288e.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1111 silly install write writing statuses 1.3.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1112 verbose unbuild node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1113 verbose unbuild node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1114 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits is being purged from base D:\传智工作室\express\project\meadowlark
+1115 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1116 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\inherits\2.0.1\package.tgz
+1117 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1118 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits is being purged
+1119 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1120 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses is being purged from base D:\传智工作室\express\project\meadowlark
+1121 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1122 silly gunzTarPerm modes [ '777', '666' ]
+1123 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\statuses\1.3.0\package.tgz
+1124 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1125 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses is being purged
+1126 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1127 silly gunzTarPerm modes [ '777', '666' ]
+1128 silly gunzTarPerm extractEntry package.json
+1129 silly gunzTarPerm extractEntry README.md
+1130 silly gunzTarPerm extractEntry LICENSE
+1131 silly gunzTarPerm extractEntry index.js
+1132 silly gunzTarPerm extractEntry HISTORY.md
+1133 silly gunzTarPerm extractEntry codes.json
+1134 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses\package.json
+1135 silly gunzTarPerm extractEntry package.json
+1136 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1137 info preinstall statuses@1.3.0
+1138 http fetch 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.11.tgz
+1139 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses\package.json
+1140 silly gunzTarPerm extractEntry README.md
+1141 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1142 silly gunzTarPerm extractEntry LICENSE
+1143 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1144 silly fetchAndShaCheck shasum c259c471bda808a85d6cd193b430a5fae4473b3c
+1145 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses\package.json
+1146 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\mime-types\-\mime-types-2.1.11.tgz not in flight; adding
+1147 verbose addTmpTarball already have metadata; skipping unpack for mime-types@2.1.11
+1148 silly gunzTarPerm extractEntry inherits.js
+1149 silly gunzTarPerm modified mode [ 'inherits.js', 420, 438 ]
+1150 silly gunzTarPerm extractEntry inherits_browser.js
+1151 silly gunzTarPerm modified mode [ 'inherits_browser.js', 420, 438 ]
+1152 silly install resolved []
+1153 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1154 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1155 silly cache afterAdd mime-types@2.1.11
+1156 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\mime-types\2.1.11\package\package.json not in flight; writing
+1157 silly gunzTarPerm extractEntry test.js
+1158 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+1159 info linkStuff statuses@1.3.0
+1160 silly linkStuff statuses@1.3.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules as its parent node_modules
+1161 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\mime-types\2.1.11\package\package.json written
+1162 silly install resolved [ { name: 'media-typer',
+1162 silly install resolved     description: 'Simple RFC 6838 media type parser and formatter',
+1162 silly install resolved     version: '0.3.0',
+1162 silly install resolved     author:
+1162 silly install resolved      { name: 'Douglas Christopher Wilson',
+1162 silly install resolved        email: 'doug@somethingdoug.com' },
+1162 silly install resolved     license: 'MIT',
+1162 silly install resolved     repository:
+1162 silly install resolved      { type: 'git',
+1162 silly install resolved        url: 'git+https://github.com/jshttp/media-typer.git' },
+1162 silly install resolved     devDependencies: { istanbul: '0.3.2', mocha: '~1.21.4', should: '~4.0.4' },
+1162 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+1162 silly install resolved     engines: { node: '>= 0.6' },
+1162 silly install resolved     scripts:
+1162 silly install resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+1162 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+1162 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+1162 silly install resolved     gitHead: 'd49d41ffd0bb5a0655fa44a59df2ec0bfc835b16',
+1162 silly install resolved     bugs: { url: 'https://github.com/jshttp/media-typer/issues' },
+1162 silly install resolved     homepage: 'https://github.com/jshttp/media-typer',
+1162 silly install resolved     _id: 'media-typer@0.3.0',
+1162 silly install resolved     _shasum: '8710d7af0aa626f8fffa1ce00168545263255748',
+1162 silly install resolved     _from: 'media-typer@0.3.0',
+1162 silly install resolved     _npmVersion: '1.4.21',
+1162 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1162 silly install resolved     maintainers: [ [Object] ],
+1162 silly install resolved     dist:
+1162 silly install resolved      { shasum: '8710d7af0aa626f8fffa1ce00168545263255748',
+1162 silly install resolved        tarball: 'https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz' },
+1162 silly install resolved     directories: {},
+1162 silly install resolved     _resolved: 'https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz',
+1162 silly install resolved     readme: 'ERROR: No README data found!' },
+1162 silly install resolved   { name: 'mime-types',
+1162 silly install resolved     description: 'The ultimate javascript content-type utility.',
+1162 silly install resolved     version: '2.1.11',
+1162 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+1162 silly install resolved     license: 'MIT',
+1162 silly install resolved     keywords: [ 'mime', 'types' ],
+1162 silly install resolved     repository:
+1162 silly install resolved      { type: 'git',
+1162 silly install resolved        url: 'git+https://github.com/jshttp/mime-types.git' },
+1162 silly install resolved     dependencies: { 'mime-db': '~1.23.0' },
+1162 silly install resolved     devDependencies: { istanbul: '0.4.3', mocha: '1.21.5' },
+1162 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+1162 silly install resolved     engines: { node: '>= 0.6' },
+1162 silly install resolved     scripts:
+1162 silly install resolved      { test: 'mocha --reporter spec test/test.js',
+1162 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/test.js',
+1162 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/test.js' },
+1162 silly install resolved     gitHead: '298ffcf490a5d6e60edea7bf7a69036df04846b1',
+1162 silly install resolved     bugs: { url: 'https://github.com/jshttp/mime-types/issues' },
+1162 silly install resolved     homepage: 'https://github.com/jshttp/mime-types#readme',
+1162 silly install resolved     _id: 'mime-types@2.1.11',
+1162 silly install resolved     _shasum: 'c259c471bda808a85d6cd193b430a5fae4473b3c',
+1162 silly install resolved     _from: 'mime-types@>=2.1.11 <2.2.0',
+1162 silly install resolved     _npmVersion: '2.15.1',
+1162 silly install resolved     _nodeVersion: '4.4.3',
+1162 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1162 silly install resolved     dist:
+1162 silly install resolved      { shasum: 'c259c471bda808a85d6cd193b430a5fae4473b3c',
+1162 silly install resolved        tarball: 'https://registry.npmjs.org/mime-types/-/mime-types-2.1.11.tgz' },
+1162 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+1162 silly install resolved     _npmOperationalInternal:
+1162 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+1162 silly install resolved        tmp: 'tmp/mime-types-2.1.11.tgz_1462165365027_0.7217204745393246' },
+1162 silly install resolved     directories: {},
+1162 silly install resolved     _resolved: 'https://registry.npmjs.org/mime-types/-/mime-types-2.1.11.tgz' } ]
+1163 info install media-typer@0.3.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+1164 info install mime-types@2.1.11 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+1165 info installOne media-typer@0.3.0
+1166 verbose installOne of media-typer to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is not in flight; installing
+1167 info installOne mime-types@2.1.11
+1168 verbose installOne of mime-types to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is not in flight; installing
+1169 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\media-typer-a911ab0525cb1aa9.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1170 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\mime-types-84b65f24517a73f2.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1171 silly install write writing media-typer 0.3.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1172 silly install write writing mime-types 2.1.11 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1173 verbose linkBins statuses@1.3.0
+1174 verbose linkMans statuses@1.3.0
+1175 verbose rebuildBundles statuses@1.3.0
+1176 info install statuses@1.3.0
+1177 info postinstall statuses@1.3.0
+1178 verbose unbuild node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1179 verbose unbuild node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1180 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer is being purged from base D:\传智工作室\express\project\meadowlark
+1181 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1182 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types is being purged from base D:\传智工作室\express\project\meadowlark
+1183 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1184 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\media-typer\0.3.0\package.tgz
+1185 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1186 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer is being purged
+1187 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1188 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\statuses-d35c91480c11288e.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\statuses
+1189 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\mime-types\2.1.11\package.tgz
+1190 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1191 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types is being purged
+1192 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1193 silly gunzTarPerm modes [ '777', '666' ]
+1194 silly gunzTarPerm modes [ '777', '666' ]
+1195 silly gunzTarPerm extractEntry package.json
+1196 silly gunzTarPerm extractEntry package.json
+1197 silly gunzTarPerm extractEntry README.md
+1198 silly gunzTarPerm extractEntry LICENSE
+1199 silly gunzTarPerm extractEntry README.md
+1200 silly gunzTarPerm extractEntry LICENSE
+1201 http fetch 200 https://registry.npmjs.org/ms/-/ms-0.7.1.tgz
+1202 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits\package.json
+1203 silly fetchAndShaCheck shasum 9cd13c03adbff25b65effde7ce864ee952017098
+1204 info preinstall inherits@2.0.1
+1205 silly gunzTarPerm extractEntry index.js
+1206 silly gunzTarPerm extractEntry HISTORY.md
+1207 silly gunzTarPerm extractEntry index.js
+1208 silly gunzTarPerm extractEntry HISTORY.md
+1209 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits\package.json
+1210 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\ms\-\ms-0.7.1.tgz not in flight; adding
+1211 verbose addTmpTarball already have metadata; skipping unpack for ms@0.7.1
+1212 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits\package.json
+1213 silly cache afterAdd ms@0.7.1
+1214 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\ms\0.7.1\package\package.json not in flight; writing
+1215 silly install resolved []
+1216 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1217 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1218 info linkStuff inherits@2.0.1
+1219 silly linkStuff inherits@2.0.1 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules as its parent node_modules
+1220 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\ms\0.7.1\package\package.json written
+1221 silly install resolved [ { name: 'ms',
+1221 silly install resolved     version: '0.7.1',
+1221 silly install resolved     description: 'Tiny ms conversion utility',
+1221 silly install resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+1221 silly install resolved     main: './index',
+1221 silly install resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+1221 silly install resolved     component: { scripts: [Object] },
+1221 silly install resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+1221 silly install resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+1221 silly install resolved     homepage: 'https://github.com/guille/ms.js',
+1221 silly install resolved     _id: 'ms@0.7.1',
+1221 silly install resolved     scripts: {},
+1221 silly install resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+1221 silly install resolved     _from: 'ms@0.7.1',
+1221 silly install resolved     _npmVersion: '2.7.5',
+1221 silly install resolved     _nodeVersion: '0.12.2',
+1221 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+1221 silly install resolved     maintainers: [ [Object] ],
+1221 silly install resolved     dist:
+1221 silly install resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+1221 silly install resolved        tarball: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+1221 silly install resolved     directories: {},
+1221 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz' } ]
+1222 info install ms@0.7.1 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+1223 info installOne ms@0.7.1
+1224 verbose installOne of ms to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug not in flight; installing
+1225 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\ms-b20443749a6cbeb6.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms
+1226 verbose linkBins inherits@2.0.1
+1227 verbose linkMans inherits@2.0.1
+1228 verbose rebuildBundles inherits@2.0.1
+1229 silly install write writing ms 0.7.1 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms
+1230 info install inherits@2.0.1
+1231 info postinstall inherits@2.0.1
+1232 verbose unbuild node_modules\body-parser\node_modules\debug\node_modules\ms
+1233 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms is being purged from base D:\传智工作室\express\project\meadowlark
+1234 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms
+1235 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\inherits-34dcb5c20dd516b7.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors\node_modules\inherits
+1236 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+1237 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+1238 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\ms\0.7.1\package.tgz
+1239 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms
+1240 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms is being purged
+1241 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms
+1242 silly gunzTarPerm modes [ '777', '666' ]
+1243 info linkStuff http-errors@1.4.0
+1244 silly linkStuff http-errors@1.4.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+1245 silly gunzTarPerm extractEntry package.json
+1246 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1247 silly gunzTarPerm extractEntry .npmignore
+1248 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+1249 silly gunzTarPerm extractEntry README.md
+1250 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1251 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\package.json
+1252 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer\package.json
+1253 verbose linkBins http-errors@1.4.0
+1254 verbose linkMans http-errors@1.4.0
+1255 verbose rebuildBundles http-errors@1.4.0
+1256 verbose rebuildBundles [ 'inherits', 'statuses' ]
+1257 info install http-errors@1.4.0
+1258 info preinstall mime-types@2.1.11
+1259 silly gunzTarPerm extractEntry LICENSE
+1260 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1261 silly gunzTarPerm extractEntry index.js
+1262 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1263 info postinstall http-errors@1.4.0
+1264 info preinstall media-typer@0.3.0
+1265 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\package.json
+1266 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer\package.json
+1267 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\http-errors-a52068943a78b040.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\http-errors
+1268 silly gunzTarPerm extractEntry History.md
+1269 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+1270 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer\package.json
+1271 silly prepareForInstallMany adding mime-db@~1.23.0 from mime-types dependencies
+1272 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\package.json
+1273 silly install resolved []
+1274 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1275 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1276 info linkStuff media-typer@0.3.0
+1277 silly linkStuff media-typer@0.3.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules as its parent node_modules
+1278 silly cache add args [ 'mime-db@~1.23.0', null ]
+1279 verbose cache add spec mime-db@~1.23.0
+1280 silly cache add parsed spec { raw: 'mime-db@~1.23.0',
+1280 silly cache add   scope: null,
+1280 silly cache add   name: 'mime-db',
+1280 silly cache add   rawSpec: '~1.23.0',
+1280 silly cache add   spec: '>=1.23.0 <1.24.0',
+1280 silly cache add   type: 'range' }
+1281 silly addNamed mime-db@>=1.23.0 <1.24.0
+1282 verbose addNamed ">=1.23.0 <1.24.0" is a valid semver range for mime-db
+1283 silly addNameRange { name: 'mime-db', range: '>=1.23.0 <1.24.0', hasData: false }
+1284 silly mapToRegistry name mime-db
+1285 silly mapToRegistry using default registry
+1286 silly mapToRegistry registry https://registry.npmjs.org/
+1287 silly mapToRegistry uri https://registry.npmjs.org/mime-db
+1288 verbose addNameRange registry:https://registry.npmjs.org/mime-db not in flight; fetching
+1289 verbose linkBins media-typer@0.3.0
+1290 verbose linkMans media-typer@0.3.0
+1291 verbose rebuildBundles media-typer@0.3.0
+1292 info install media-typer@0.3.0
+1293 info postinstall media-typer@0.3.0
+1294 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\media-typer-a911ab0525cb1aa9.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\media-typer
+1295 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms\package.json
+1296 info preinstall ms@0.7.1
+1297 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms\package.json
+1298 verbose request uri https://registry.npmjs.org/mime-db
+1299 verbose request no auth needed
+1300 info attempt registry request try #1 at 11:18:05
+1301 verbose etag "4ZOAOLAHIYYKUM9DZFCOAI1T1"
+1302 http request GET https://registry.npmjs.org/mime-db
+1303 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms\package.json
+1304 silly install resolved []
+1305 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms
+1306 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms
+1307 info linkStuff ms@0.7.1
+1308 silly linkStuff ms@0.7.1 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules as its parent node_modules
+1309 verbose linkBins ms@0.7.1
+1310 verbose linkMans ms@0.7.1
+1311 verbose rebuildBundles ms@0.7.1
+1312 info install ms@0.7.1
+1313 info postinstall ms@0.7.1
+1314 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\ms-b20443749a6cbeb6.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug\node_modules\ms
+1315 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+1316 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+1317 info linkStuff debug@2.2.0
+1318 silly linkStuff debug@2.2.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+1319 verbose linkBins debug@2.2.0
+1320 verbose linkMans debug@2.2.0
+1321 verbose rebuildBundles debug@2.2.0
+1322 verbose rebuildBundles [ 'ms' ]
+1323 info install debug@2.2.0
+1324 info postinstall debug@2.2.0
+1325 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\debug-bb21403c78aa6e6f.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\debug
+1326 http 200 https://registry.npmjs.org/mime-db
+1327 silly get cb [ 200,
+1327 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1327 silly get     etag: '"DE1E5EXFAKV0S1L2M4PVTQ4O1"',
+1327 silly get     'content-type': 'application/json',
+1327 silly get     'content-encoding': 'gzip',
+1327 silly get     'cache-control': 'max-age=300',
+1327 silly get     'content-length': '7618',
+1327 silly get     'accept-ranges': 'bytes',
+1327 silly get     date: 'Mon, 13 Jun 2016 03:18:06 GMT',
+1327 silly get     via: '1.1 varnish',
+1327 silly get     age: '175',
+1327 silly get     connection: 'keep-alive',
+1327 silly get     'x-served-by': 'cache-sin6921-SIN',
+1327 silly get     'x-cache': 'HIT',
+1327 silly get     'x-cache-hits': '10',
+1327 silly get     'x-timer': 'S1465787886.901884,VS0,VE0',
+1327 silly get     vary: 'Accept-Encoding' } ]
+1328 verbose get saving mime-db to C:\Users\simin\AppData\Roaming\npm-cache\registry.npmjs.org\mime-db\.cache.json
+1329 silly addNameRange number 2 { name: 'mime-db', range: '>=1.23.0 <1.24.0', hasData: true }
+1330 silly addNameRange versions [ 'mime-db',
+1330 silly addNameRange   [ '0.0.0',
+1330 silly addNameRange     '1.0.0',
+1330 silly addNameRange     '1.0.1',
+1330 silly addNameRange     '1.0.2',
+1330 silly addNameRange     '1.0.3',
+1330 silly addNameRange     '1.1.0',
+1330 silly addNameRange     '1.1.1',
+1330 silly addNameRange     '1.1.2',
+1330 silly addNameRange     '1.2.0',
+1330 silly addNameRange     '1.3.0',
+1330 silly addNameRange     '1.3.1',
+1330 silly addNameRange     '1.4.0',
+1330 silly addNameRange     '1.5.0',
+1330 silly addNameRange     '1.6.0',
+1330 silly addNameRange     '1.6.1',
+1330 silly addNameRange     '1.7.0',
+1330 silly addNameRange     '1.8.0',
+1330 silly addNameRange     '1.9.0',
+1330 silly addNameRange     '1.9.1',
+1330 silly addNameRange     '1.10.0',
+1330 silly addNameRange     '1.11.0',
+1330 silly addNameRange     '1.12.0',
+1330 silly addNameRange     '1.13.0',
+1330 silly addNameRange     '1.14.0',
+1330 silly addNameRange     '1.15.0',
+1330 silly addNameRange     '1.16.0',
+1330 silly addNameRange     '1.17.0',
+1330 silly addNameRange     '1.18.0',
+1330 silly addNameRange     '1.19.0',
+1330 silly addNameRange     '1.20.0',
+1330 silly addNameRange     '1.21.0',
+1330 silly addNameRange     '1.22.0',
+1330 silly addNameRange     '1.23.0' ] ]
+1331 silly addNamed mime-db@1.23.0
+1332 verbose addNamed "1.23.0" is a plain semver version for mime-db
+1333 silly mapToRegistry name mime-db
+1334 silly mapToRegistry using default registry
+1335 silly mapToRegistry registry https://registry.npmjs.org/
+1336 silly mapToRegistry uri https://registry.npmjs.org/mime-db
+1337 verbose addRemoteTarball https://registry.npmjs.org/mime-db/-/mime-db-1.23.0.tgz not in flight; adding
+1338 verbose addRemoteTarball [ 'https://registry.npmjs.org/mime-db/-/mime-db-1.23.0.tgz',
+1338 verbose addRemoteTarball   'a31b4070adaea27d732ea333740a64d0ec9a6659' ]
+1339 info retry fetch attempt 1 at 11:18:05
+1340 info attempt registry request try #1 at 11:18:05
+1341 http fetch GET https://registry.npmjs.org/mime-db/-/mime-db-1.23.0.tgz
+1342 http fetch 200 https://registry.npmjs.org/mime-db/-/mime-db-1.23.0.tgz
+1343 silly fetchAndShaCheck shasum a31b4070adaea27d732ea333740a64d0ec9a6659
+1344 verbose addTmpTarball C:\Users\simin\AppData\Local\Temp\npm-10068-1b12dbc9\registry.npmjs.org\mime-db\-\mime-db-1.23.0.tgz not in flight; adding
+1345 verbose addTmpTarball already have metadata; skipping unpack for mime-db@1.23.0
+1346 silly cache afterAdd mime-db@1.23.0
+1347 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\mime-db\1.23.0\package\package.json not in flight; writing
+1348 verbose afterAdd C:\Users\simin\AppData\Roaming\npm-cache\mime-db\1.23.0\package\package.json written
+1349 silly install resolved [ { name: 'mime-db',
+1349 silly install resolved     description: 'Media Type Database',
+1349 silly install resolved     version: '1.23.0',
+1349 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+1349 silly install resolved     license: 'MIT',
+1349 silly install resolved     keywords: [ 'mime', 'db', 'type', 'types', 'database', 'charset', 'charsets' ],
+1349 silly install resolved     repository:
+1349 silly install resolved      { type: 'git',
+1349 silly install resolved        url: 'git+https://github.com/jshttp/mime-db.git' },
+1349 silly install resolved     devDependencies:
+1349 silly install resolved      { bluebird: '3.3.5',
+1349 silly install resolved        co: '4.6.0',
+1349 silly install resolved        cogent: '1.0.1',
+1349 silly install resolved        'csv-parse': '1.1.0',
+1349 silly install resolved        gnode: '0.1.2',
+1349 silly install resolved        istanbul: '0.4.3',
+1349 silly install resolved        mocha: '1.21.5',
+1349 silly install resolved        'raw-body': '2.1.6',
+1349 silly install resolved        'stream-to-array': '2.3.0' },
+1349 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'db.json', 'index.js' ],
+1349 silly install resolved     engines: { node: '>= 0.6' },
+1349 silly install resolved     scripts:
+1349 silly install resolved      { build: 'node scripts/build',
+1349 silly install resolved        fetch: 'gnode scripts/fetch-apache && gnode scripts/fetch-iana && gnode scripts/fetch-nginx',
+1349 silly install resolved        test: 'mocha --reporter spec --bail --check-leaks test/',
+1349 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+1349 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+1349 silly install resolved        update: 'npm run fetch && npm run build' },
+1349 silly install resolved     gitHead: 'ba0d99fd05b3bfdc2ebcd78f858c25cb7db6af41',
+1349 silly install resolved     bugs: { url: 'https://github.com/jshttp/mime-db/issues' },
+1349 silly install resolved     homepage: 'https://github.com/jshttp/mime-db#readme',
+1349 silly install resolved     _id: 'mime-db@1.23.0',
+1349 silly install resolved     _shasum: 'a31b4070adaea27d732ea333740a64d0ec9a6659',
+1349 silly install resolved     _from: 'mime-db@>=1.23.0 <1.24.0',
+1349 silly install resolved     _npmVersion: '2.15.1',
+1349 silly install resolved     _nodeVersion: '4.4.3',
+1349 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1349 silly install resolved     dist:
+1349 silly install resolved      { shasum: 'a31b4070adaea27d732ea333740a64d0ec9a6659',
+1349 silly install resolved        tarball: 'https://registry.npmjs.org/mime-db/-/mime-db-1.23.0.tgz' },
+1349 silly install resolved     maintainers: [ [Object], [Object] ],
+1349 silly install resolved     _npmOperationalInternal:
+1349 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+1349 silly install resolved        tmp: 'tmp/mime-db-1.23.0.tgz_1462163798086_0.43938886746764183' },
+1349 silly install resolved     directories: {},
+1349 silly install resolved     _resolved: 'https://registry.npmjs.org/mime-db/-/mime-db-1.23.0.tgz' } ]
+1350 info install mime-db@1.23.0 into D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1351 info installOne mime-db@1.23.0
+1352 verbose installOne of mime-db to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types not in flight; installing
+1353 verbose lock using C:\Users\simin\AppData\Roaming\npm-cache\_locks\mime-db-abaee3f18203daa8.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1354 silly install write writing mime-db 1.23.0 to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1355 verbose unbuild node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1356 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db is being purged from base D:\传智工作室\express\project\meadowlark
+1357 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1358 verbose tar unpack C:\Users\simin\AppData\Roaming\npm-cache\mime-db\1.23.0\package.tgz
+1359 verbose tar unpacking to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1360 silly gentlyRm D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db is being purged
+1361 verbose gentlyRm don't care about contents; nuking D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1362 silly gunzTarPerm modes [ '777', '666' ]
+1363 silly gunzTarPerm extractEntry package.json
+1364 silly gunzTarPerm extractEntry README.md
+1365 silly gunzTarPerm extractEntry LICENSE
+1366 silly gunzTarPerm extractEntry index.js
+1367 silly gunzTarPerm extractEntry db.json
+1368 silly gunzTarPerm extractEntry HISTORY.md
+1369 verbose write writing to D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\package.json
+1370 info preinstall mime-db@1.23.0
+1371 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\package.json
+1372 verbose readDependencies loading dependencies from D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\package.json
+1373 silly install resolved []
+1374 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1375 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1376 info linkStuff mime-db@1.23.0
+1377 silly linkStuff mime-db@1.23.0 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules as its parent node_modules
+1378 verbose linkBins mime-db@1.23.0
+1379 verbose linkMans mime-db@1.23.0
+1380 verbose rebuildBundles mime-db@1.23.0
+1381 info install mime-db@1.23.0
+1382 info postinstall mime-db@1.23.0
+1383 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\mime-db-abaee3f18203daa8.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db
+1384 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1385 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1386 info linkStuff mime-types@2.1.11
+1387 silly linkStuff mime-types@2.1.11 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules as its parent node_modules
+1388 verbose linkBins mime-types@2.1.11
+1389 verbose linkMans mime-types@2.1.11
+1390 verbose rebuildBundles mime-types@2.1.11
+1391 verbose rebuildBundles [ 'mime-db' ]
+1392 info install mime-types@2.1.11
+1393 info postinstall mime-types@2.1.11
+1394 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\mime-types-84b65f24517a73f2.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is\node_modules\mime-types
+1395 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+1396 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+1397 info linkStuff type-is@1.6.13
+1398 silly linkStuff type-is@1.6.13 has D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules as its parent node_modules
+1399 verbose linkBins type-is@1.6.13
+1400 verbose linkMans type-is@1.6.13
+1401 verbose rebuildBundles type-is@1.6.13
+1402 verbose rebuildBundles [ 'media-typer', 'mime-types' ]
+1403 info install type-is@1.6.13
+1404 info postinstall type-is@1.6.13
+1405 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\type-is-9aec4b844dfab469.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser\node_modules\type-is
+1406 verbose about to build D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+1407 info build D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+1408 info linkStuff body-parser@1.15.1
+1409 silly linkStuff body-parser@1.15.1 has D:\传智工作室\express\project\meadowlark\node_modules as its parent node_modules
+1410 verbose linkBins body-parser@1.15.1
+1411 verbose linkMans body-parser@1.15.1
+1412 verbose rebuildBundles body-parser@1.15.1
+1413 verbose rebuildBundles [ 'bytes',
+1413 verbose rebuildBundles   'content-type',
+1413 verbose rebuildBundles   'debug',
+1413 verbose rebuildBundles   'depd',
+1413 verbose rebuildBundles   'http-errors',
+1413 verbose rebuildBundles   'iconv-lite',
+1413 verbose rebuildBundles   'on-finished',
+1413 verbose rebuildBundles   'qs',
+1413 verbose rebuildBundles   'raw-body',
+1413 verbose rebuildBundles   'type-is' ]
+1414 info install body-parser@1.15.1
+1415 info postinstall body-parser@1.15.1
+1416 verbose unlock done using C:\Users\simin\AppData\Roaming\npm-cache\_locks\body-parser-026e74b0d4383ab7.lock for D:\传智工作室\express\project\meadowlark\node_modules\body-parser
+1417 verbose validateInstall loading D:\传智工作室\express\project\meadowlark\package.json for validation
+1418 verbose stack Error: The package grunt does not satisfy its siblings' peerDependencies requirements!
+1418 verbose stack     at D:\nodejs\node_modules\npm\lib\install.js:125:32
+1418 verbose stack     at D:\nodejs\node_modules\npm\lib\install.js:267:7
+1418 verbose stack     at D:\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:138:5
+1418 verbose stack     at D:\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1418 verbose stack     at cb (D:\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1418 verbose stack     at D:\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1418 verbose stack     at cb (D:\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1418 verbose stack     at D:\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1418 verbose stack     at cb (D:\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1418 verbose stack     at D:\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1419 verbose cwd D:\传智工作室\express\project\meadowlark\site
+1420 error Windows_NT 6.3.9600
+1421 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "body-parser"
+1422 error node v0.12.7
+1423 error npm  v2.11.3
+1424 error code EPEERINVALID
+1425 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+1425 error peerinvalid Peer grunt-exec@0.4.6 wants grunt@~0.4
+1425 error peerinvalid Peer grunt-cafe-mocha@0.1.13 wants grunt@~0.4.1
+1425 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+1425 error peerinvalid Peer grunt-contrib-nodeunit@0.4.1 wants grunt@~0.4.0
+1425 error peerinvalid Peer grunt-contrib-uglify@0.5.1 wants grunt@~0.4.0
+1426 verbose exit [ 1, true ]
