@@ -41,6 +41,7 @@ function getWeatherData(){
 var express=require('express');
 var formidable=require('formidable');
 var bodyParser=require('body-parser');
+var jqupload=require('jquery-file-upload-middleware');
 var app=express();
 if(app.thing===null) console.log('bleat!');
 
@@ -58,6 +59,18 @@ var handlebars=require('express3-handlebars').create({
 app.engine('handlebars',handlebars.engine);
 app.set('view engine','handlebars');
 app.set('port',process.env.PORT||3000);
+
+app.use('/upload',function(req,res,next){
+    var now=Date.now();
+    jqupload.fileHandler({
+        uploadDir:function(){
+            return __dirname+'/public/uploads/'+now;
+        },
+        uploadUrl:function(){
+            return '/uploads/'+now;
+        },
+    })(req,res,next);
+});
 
 app.use(bodyParser.urlencoded({
   extended: true
@@ -120,6 +133,10 @@ app.get('/error',function(req,res){
     res.render('error');
 });
 
+app.get('/update',function(req,res){
+    res.render('update');
+});
+
 app.post('/process',function(req,res){
    /*
     console.log('Form (form querrystring):'+req.query.form);
@@ -148,8 +165,10 @@ app.post('/contest/vacation-photo/:year/:month',function(req,res){
     var form=new formidable.IncomingForm();
     form.parse(req,function(err,fields,files){
         if(err) return res.redirect(303,'/error');
-        console.log('received fields:'+fields);
-        console.log('received files:'+files);
+        console.log('received fields:');
+        console.log(fields);
+        console.log('received files:');
+        console.log(files);
         res.redirect(303,'/thank-you');
     });
 });
